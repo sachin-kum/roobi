@@ -1,0 +1,359 @@
+
+
+.LookBook-Page .carousel-indicators{
+  display: none;
+}
+.LookBook-Page .carousel-control-prev-icon  {
+  transform: rotate(179deg) !important;
+  background-image: url('/public//static/carRight.png') !important;
+}
+.LookBook-Page .carousel-control-next-icon{
+  background-image: url('/public//static/carRight.png') !important;
+
+}
+.LookBook-Page .LookBook-section p{
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 500;
+}
+.LookBook-Page .green-container h6 {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  margin: 25px 0px;
+}
+.LookBook-Page .green-container  p {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  margin: 25px 0px;
+}
+
+.LookBook-Page .carouselItem{
+  position: relative;
+}
+.LookBook-Page .caouselPlus{
+  position: absolute;
+  top: 20%;
+  right: 1%;
+  background-color: #027656;
+  padding: 2px 6px;
+  z-index: 1;
+  border-radius: 50%;
+}
+ .LookBook-Page .green-container {
+  background-color: #027656;
+}
+.LookBook-Page .LookBook-Main{
+  max-width: 1728px;
+  margin: auto;
+}
+
+.LookBook-Page .lookbookText-Container{
+text-align: center;
+  padding: 60px 0px;
+  color: #ffffff;
+  max-width: 800px;
+}
+
+.LookBook-Page .green-container h1 {
+  font-family: "Laviossa";
+  font-size: 5rem;
+}
+.LookBook-Page .lookbook-share{
+  font-family: 'Montserrat';
+}
+.lookbook-share span{
+  background: white;
+    border-radius: 50%;
+    padding:2px 0px 2px 6px;
+    margin: 0 10px;
+}
+
+.LookBook-Page .experience h1{
+  color: #901346;
+  font-size: 2rem;
+}
+.LookBook-Page .experience {
+padding: 50px 0;
+
+}
+.LookBook-Page .birthday-cake {
+
+  position: relative;
+ 
+}
+.LookBook-Page .plus-Button {
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  background: #027656;
+  border-radius: 50%;
+  padding: 2px 6px ;
+}
+.LookBook-Page .plus-Button2 {
+  position: absolute;
+  right: 13%;
+  top: 6%;
+  background: #027656;
+  border-radius: 50%;
+  padding: 2px 6px ;
+}
+.LookBook-Page .birthday-cake img{
+ width: 100%;
+}
+.LookBook-Page .photo-experience h1 {
+  color: #00b0d7;
+  font-size: 2rem;
+}
+.LookBook-Page .photo-experience {
+ padding: 50px 0;
+}
+.LookBook-Page .best-times {
+  margin: 7vh 4vw 7vh 2vw;
+}
+.LookBook-Page .best-times-img {
+  position: relative;
+}
+.LookBook-Page .best-times-img img{
+width: 100%;
+}
+.LookBook-Page .best-times-text {
+  color: #027656;
+  padding: 40px;
+}
+.LookBook-Page .best-times-text p {
+  font-family: "Laviossa";
+  font-size: 2.5rem;
+}
+.LookBook-Page .best-times-text h1 {
+  font-size: 3rem;
+}
+.LookBook-Page .image-grid {
+  margin: 7vh 3vw 7vh 3vw;
+}
+.LookBook-Page .grid-col{
+position: relative;
+}
+.LookBook-Page .grid-col img{
+  height: 100%;
+  width: 100%;
+  padding-top: 20px;
+}
+.LookBook-Page .grid-col span{
+  position: absolute;
+  top: 10%;
+  right: 7%;
+  background-color: #027656;
+  border-radius: 50%;
+  padding: 2px 6px;
+
+}
+.LookBook-Page .caterer-experience h2 {
+  color: #f8b912;
+  font-size: 2rem;
+}
+.LookBook-Page .caterer-experience {
+padding: 50px 0;
+}
+.LookBook-Page .couple-name p {
+  font-family: "Montserrat";
+  color: #525045;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.LookBook-Page .stylist {
+padding: 50px 0;
+}
+.LookBook-Page .stylist h2 {
+  color: #ec6877;
+  font-size: 2rem;
+}
+.LookBook-Page .share-this-container {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 7vh;
+}
+.LookBook-Page .share-this{
+  width: 30%;
+  color: #525045;
+  font-weight: 500;
+  text-align: center;
+  margin: 4vh 0px;
+}
+.LookBook-Page .share-this h5 {
+  color: #027656;
+  font-size: 1.5rem;
+}
+.LookBook-Page .see-another p{
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: "Laviossa";
+  color: #027656;
+  margin: 8vh 0px;
+}
+.LookBook-Page .when-where p {
+  color: #525045;
+  font-weight: 700;
+}
+.LookBook-Page .img-btn {
+  border-radius: 40px;
+  padding:7px 30px;
+ 
+  font-weight: 650;
+}
+.LookBook-Page .when-where p {
+  color: #525045;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.LookBook-Page .wedding-data {
+
+  padding: 0px 0px 80px 0px;
+  justify-content: center;
+}
+.LookBook-Page .wedding-data1 {
+ 
+  justify-content: center;
+}
+.LookBook-Page .inspireImage {
+  margin-bottom: 30px;
+  height: auto;
+  position: relative;
+}
+
+.LookBook-Page .inspire-data h2{
+  font-size: 2.5rem;
+}
+.LookBook-Page .inspireImage img{
+  width: 100%;
+}
+.LookBook-Page .card-container {
+  margin: 30px 150px;
+}
+.LookBook-Page .when-where p{
+  margin: 10px 0px;
+}
+.LookBook-Page .inspire-data p{
+margin: 20px 0px;
+}
+.LookBook-Page .img-btn{
+  font-family: "Montserrat";
+  font-size: 1rem;
+}
+.LookBook-Page .lookbookCard{
+  position: relative;
+}
+
+@media screen and (min-width:992px) and (max-width:1241px){
+  .LookBook-Page .caouselPlus {
+    top: 20%;
+    right: 2%;
+  }
+  .LookBook-Page .green-container h1{
+    font-size: 45px;
+  }
+  .LookBook-Page .lookbookText-Container {
+    max-width: 600px;
+  }
+  .LookBook-Page .experience {
+    padding: 50px;
+  }
+  .LookBook-Page .photo-experience   {
+    padding: 50px;
+  }
+  .LookBook-Page .grid-col span {
+    top: 15%;
+  }
+  .LookBook-Page .caterer-experience {
+    padding: 50px
+  }
+
+  .LookBook-Page .best-times-text p {
+    font-size: 2rem;
+    line-height:35px
+  }
+  .LookBook-Page .best-times-text{
+    padding: 0 10px;
+  }
+  .LookBook-Page .best-times-text h1{
+    font-size: 2rem;
+  }
+  .LookBook-Page .stylist{
+    padding: 50px;
+  }
+ 
+
+  .LookBook-Page .card-container{
+   margin: 30px 85px;
+  }
+  .LookBook-Page .inspire-data h2{
+    font-size: 2rem;
+  }
+
+  .LookBook-Page .inspire-data p{
+    margin: 10px 0;
+  }
+  .LookBook-Page .when-where p{
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (min-width:1242px) and (max-width:1567px){
+
+
+  .LookBook-Page .green-container h1{
+    font-size: 54px;
+  }
+  .LookBook-Page .lookbookText-Container {
+    max-width: 600px;
+  }
+  .LookBook-Page .experience {
+    padding: 50px;
+  }
+  .LookBook-Page .photo-experience   {
+    padding: 50px;
+  }
+  .LookBook-Page .grid-col span {
+    top: 15%;
+  }
+  .LookBook-Page .caterer-experience {
+    padding: 50px
+  }
+
+  .LookBook-Page .best-times-text p {
+    font-size: 2.3rem;
+    line-height: 46px;
+}
+  .LookBook-Page .best-times-text{
+    padding: 20px 10px;
+  }
+  .LookBook-Page .best-times-text h1{
+    font-size: 2.5rem;
+  }
+  .LookBook-Page .stylist{
+    padding: 50px;
+  }
+
+  .LookBook-Page .card-container{
+   margin: 30px 85px;
+  }
+  .LookBook-Page .inspire-data h2{
+    font-size: 2rem;
+  }
+
+  .LookBook-Page .inspire-data p{
+    margin: 10px 0;
+  }
+  .LookBook-Page .when-where p{
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (min-width:1567px){
+  .LookBook-Page .lookbookCard{
+    padding: 0 40px;
+  }
+}

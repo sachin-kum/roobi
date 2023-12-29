@@ -1,0 +1,516 @@
+.Contact {
+  padding: 50px 0px;
+  margin: auto;
+  max-width: 1728px;
+}
+
+.contact-home {
+  margin-bottom: 75px;
+}
+
+.contact-heading {
+  font-family: "Laviossa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #1e3b76;
+  margin-bottom: 20px;
+}
+
+.home-ring {
+  width: 100%;
+  position: relative;
+  height: 457px;
+  overflow: hidden;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 40px 0px;
+}
+
+.home-cart {
+  width: 804px;
+  height: 100%;
+  background: #f8b912;
+  border-radius: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-heading {
+  font-family: "Laviossa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.cont-btn {
+  margin-top: 40px;
+  width: 180px;
+  height: 43px;
+  left: 764px;
+  top: 743px;
+  border: 4px solid #ffffff;
+  border-radius: 50px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  font-variant: small-caps;
+  color: #ffffff;
+}
+
+.ring-one,
+.ring-two {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 20%;
+}
+
+.ring-one {
+  left: 0px;
+}
+
+.ring-two {
+  right: 0px;
+}
+
+.lring1,
+.lring2 {
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.lring1 {
+  width: 457px;
+  height: 457px;
+  left: -250px;
+}
+
+.lring1::before {
+  content: "";
+  border: 3px solid #ca8bbb;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.lring2 {
+  width: 279px;
+  height: 279px;
+  left: 69px;
+}
+
+.lring2::before {
+  border: 3px solid #66c0be;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 50%;
+}
+
+/* right ring  */
+.rring1,
+.rring2,
+.rring3,
+.rring4 {
+  border-radius: 50%;
+  position: absolute;
+}
+
+.rring1 {
+  width: 365px;
+  height: 365px;
+  border: 2px solid #f8b912;
+  top: 50%;
+  right: -69px;
+  transform: translateY(-50%);
+}
+
+.rring2 {
+  bottom: 0px;
+  right: 161px;
+  border: 2px solid #00b0d7;
+  width: 210px;
+  height: 210px;
+}
+
+.rring3 {
+  top: 0px;
+  right: 143px;
+  border: 2px solid #ec6877;
+  width: 210px;
+  height: 210px;
+}
+
+.rring4 {
+  top: 0px;
+  right: 97px;
+  border: 2px solid #027656;
+  width: 129px;
+  height: 129px;
+}
+
+/* second  */
+.contact-info {
+  padding-left: 91px;
+}
+
+form {
+  width: 100%;
+}
+
+.info {
+  font-family: "Laviossa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 46px;
+  color: #1e3b76;
+  margin-bottom: 30px;
+}
+
+.info span {
+  display: block;
+  padding-top: 30px;
+  font-size: 20px;
+  line-height: 36px;
+  color: #525045;
+  font-family: "Montserrat";
+}
+
+.social {
+  width: 100%;
+}
+
+.social-head,
+.link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #525045;
+}
+
+.social-link {
+  margin-top: 10px;
+}
+
+.social-head {
+  font-family: "Laviossa";
+}
+
+.link {
+  padding: 10px 0px;
+  display: inline-flex;
+  align-items: center;
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+
+.link span {
+  display: inline-block;
+  padding-left: 4px;
+}
+
+/* contact-form */
+.contact-form {
+  width: 100%;
+}
+
+.input-control {
+  background: #ffffff;
+  border: 1px solid #525045;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  padding: 10px 20px;
+  width: 100%;
+  font-family: "Montserrat";
+}
+.input-control:focus-visible {
+  outline: none;
+}
+.error {
+  color: red;
+  font-size: 16px;
+  padding: 5px 10px;
+  font-family: "Montserrat";
+}
+
+.msg {
+  width: 100%;
+  height: 250px;
+  padding: 10px;
+  border: none;
+  background: none;
+  outline: none;
+  resize: none;
+  overflow: auto;
+}
+
+.msg::-webkit-scrollbar {
+  width: 18px;
+}
+
+.msg::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 10px;
+  border: 6px solid #fff;
+}
+
+.rem-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  color: #525045;
+  font-variant: small-caps;
+}
+
+.send-btn {
+  border-radius: 50px;
+  padding: 10px 30px;
+  background: #1e3b76;
+  color: #fff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  font-variant: small-caps;
+}
+
+.ContactPage-container {
+  padding: 50px 250px;
+}
+
+@media (max-width: 1024px) {
+  form {
+    padding: 0px;
+  }
+
+  .msg {
+    height: 240px;
+  }
+}
+
+@media (max-width: 575px) {
+  #lname {
+    margin-top: 24px;
+  }
+
+  .info {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .info span {
+    font-size: 15px;
+    line-height: 26px;
+    padding-top: 16px;
+  }
+
+  .input-control {
+    padding: 8px 16px;
+    border-radius: 40px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1241px) {
+  .contact-heading {
+    font-size: 44px;
+  }
+  .contact-info {
+    padding: 0 50px 70px;
+  }
+  .home-heading {
+    font-size: 30px;
+  }
+  .home-cart {
+    width: 750px;
+  }
+  .home-ring {
+    height: 400px;
+  }
+  .lring1 {
+    width: 300px;
+    height: 350px;
+    left: -230px;
+  }
+  .lring2 {
+    width: 179px;
+    height: 179px;
+    left: 14px;
+  }
+
+  .rring1 {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #f8b912;
+    top: 50%;
+    right: -208px;
+  }
+  .rring2 {
+    bottom: 43px;
+    right: 8px;
+    border: 2px solid #00b0d7;
+    width: 120px;
+    height: 120px;
+  }
+  .rring3 {
+    top: 72px;
+    right: 10px;
+    border: 2px solid #ec6877;
+    width: 120px;
+    height: 120px;
+  }
+  .rring4 {
+    top: 34px;
+    right: 3px;
+    border: 2px solid #027656;
+    width: 80px;
+    height: 80px;
+  }
+  .ContactPage-container {
+    padding: 50px;
+  }
+}
+
+@media screen and (min-width: 1242px) and (max-width: 1367px) {
+  .contact-heading {
+    font-size: 44px;
+  }
+  .contact-info {
+    padding: 0 50px 70px;
+  }
+  .home-heading {
+    font-size: 30px;
+  }
+  .home-cart {
+    width: 750px;
+  }
+  .home-ring {
+    height: 400px;
+  }
+  .lring1 {
+    width: 300px;
+    height: 350px;
+    left: -170px;
+  }
+  .lring2 {
+    width: 179px;
+    height: 179px;
+    left: 40px;
+  }
+
+  .rring1 {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #f8b912;
+    top: 50%;
+    right: -144px;
+  }
+  .rring2 {
+    bottom: 43px;
+    right: 77px;
+    border: 2px solid #00b0d7;
+    width: 120px;
+    height: 120px;
+  }
+  .rring3 {
+    top: 35px;
+    right: 77px;
+    border: 2px solid #ec6877;
+    width: 120px;
+    height: 120px;
+  }
+  .rring4 {
+    top: 2px;
+    right: 37px;
+    border: 2px solid #027656;
+    width: 90px;
+    height: 90px;
+  }
+  .ContactPage-container {
+    padding: 50px;
+  }
+}
+
+@media screen and (min-width: 1368px) and (max-width: 1600px) {
+  .contact-heading {
+    font-size: 44px;
+  }
+  .home-heading {
+    font-size: 30px;
+  }
+  .home-cart {
+    width: 850px;
+  }
+
+  .contact-info {
+    padding: 0 50px 70px;
+  }
+  .home-ring {
+    height: 400px;
+  }
+  .lring1 {
+    width: 330px;
+    height: 330px;
+    left: -130px;
+  }
+  .lring2 {
+    width: 179px;
+    height: 179px;
+    left: 95px;
+  }
+
+  .rring1 {
+    width: 320px;
+    height: 320px;
+    border: 2px solid #f8b912;
+    top: 50%;
+    right: -120px;
+  }
+  .rring2 {
+    bottom: 14px;
+    right: 97px;
+    border: 2px solid #00b0d7;
+    width: 160px;
+    height: 160px;
+  }
+  .rring3 {
+    top: 25px;
+    right: 97px;
+    border: 2px solid #ec6877;
+    width: 160px;
+    height: 160px;
+  }
+  .rring4 {
+    top: 2px;
+    right: 37px;
+    border: 2px solid #027656;
+    width: 120px;
+    height: 120px;
+  }
+  .ContactPage-container {
+    padding: 50px;
+  }
+}

@@ -1,0 +1,220 @@
+.getInspired-page .get-inspired-img {
+  background-image: url("/public/static/get-inspired.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 100%;
+}
+img {
+  max-width: 100%;
+  outline: none;
+  line-height: 0;
+  height: auto;
+}
+
+.last-wedding-row {
+  padding: 0 0 60px 0;
+}
+.getInspired-page .wedding-data1 {
+  padding: 0 0 60px 0;
+}
+.getInspired-page .inspire-data .inpired-des {
+  padding: 15px 0;
+}
+.getInspired-page .text2-row {
+  padding-right: 50px;
+}
+.getInspired-page .text-row {
+  /* padding: 0 60px; */
+}
+.getInspired-page .getInspired-container {
+  /* width: 80%;
+  margin: auto; */
+}
+.explore-dropdown_submit img {
+  width: 22px;
+}
+
+.wedding-container-col {
+  position: relative;
+}
+.wedding-container-col button {
+  position: absolute;
+  right: 11%;
+  top: 11%;
+  border-radius: 50%;
+  background: #ca8bbb;
+  color: white;
+  padding: 1px;
+  display: flex;
+  border: 0;
+}
+.getInspired-page .row-inspire {
+  padding: 0;
+}
+.getInspired-page .text h1 {
+  font-size: 28px;
+  margin-bottom: 1rem;
+}
+.getInspired-page .text h3 {
+  font-size: 18px;
+  padding: 10px 0;
+  font-weight: 600;
+  font-family: "Montserrat";
+  color: #525045;
+}
+.getInspired-page .text p {
+  color: rgba(82, 80, 69, 1);
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "Montserrat";
+  margin-top: 2vh;
+}
+.Inspired-Container {
+  /* max-width: 1728px; */
+}
+.getInspired-page .img-text {
+  padding: 177px 0;
+  max-width: 969px;
+  color: white;
+  font-weight: 400;
+}
+.getInspired-page .img-text h4 {
+  font-size: 55px;
+}
+.getInspired-page .wedding-container {
+  /* padding: 40px 0px; 
+  max-width: 1728px;
+  margin: auto;*/
+}
+.getInspired-page .wedding-container img {
+  max-width: 92%;
+}
+.getInspired-page .title {
+  color: rgba(202, 139, 187, 1);
+}
+.getInspired-page .title1 {
+  color: #027656;
+}
+
+.getInspired-page .discover-btn {
+  color: rgba(202, 139, 187, 1);
+  border: 2px solid rgba(202, 139, 187, 1);
+  border-radius: 30px;
+  padding: 5px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Montserrat";
+}
+.getInspired-page .discover-btn1 {
+  color: #027656;
+  border: 2px solid #027656;
+  border-radius: 30px;
+  padding: 7px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Montserrat";
+}
+.getInspired-page .when-where p {
+  color: #525045;
+  font-weight: 600;
+  font-family: "Montserrat";
+  font-size: 16px;
+}
+.getInspired-page .inspire-data .inpired-des {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 28px;
+  font-family: "Montserrat";
+  padding-right: 17px;
+}
+.getInspired-page .row-inspire .inspired-des {
+  line-height: 30px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  font-size: 16px;
+  padding-bottom: 7%;
+}
+.getInspired-page .img-btn {
+  border: 2px solid;
+  border-width: 2px !important;
+  border-radius: 40px;
+  padding: 7px 20px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.getInspired-page .card-container {
+  padding: 70px 0 0 0;
+  position: relative;
+}
+.getInspired-page .card-container img {
+  /* width: 100%; */
+}
+.getInspired-page .inspired-box {
+}
+
+.getInspired-page .wedding-data {
+  justify-content: center;
+}
+.getInspired-page .wedding-data1 {
+  justify-content: center;
+  /* padding: 0 22px; */
+}
+.getInspired-page .inspireImage {
+  height: auto;
+  position: relative;
+}
+.getInspired-page .inspireImage .lowerMapPlus {
+  position: absolute;
+  right: 8%;
+  top: 10%;
+  border-radius: 50%;
+
+  color: white;
+  padding: 1px;
+  display: flex;
+  border: 0;
+}
+/* .getInspired-page  .inspireImage img{
+    width:  100%;
+  } */
+.getInspired-page .lastsecondrow {
+  text-align: center;
+  position: relative;
+}
+.getInspired-page .lastsecondrow button {
+  position: absolute;
+  right: 11%;
+  top: 10%;
+
+  border-radius: 50%;
+  background: #027656;
+  color: white;
+  padding: 1px;
+  display: flex;
+  border: 0;
+}
+.getInspired-page .img-btn {
+  font-family: "Montserrat";
+  font-size: 16px;
+}
+
+.getInspired-page .inspire-data .sm-inspire-title {
+  font-size: 25px;
+  padding: 25px 0 15px 0;
+  font-family: Laviossa;
+  font-weight: inherit;
+}
+.weding-imgoutrt {
+  position: relative;
+}
+.text-oytu {
+  padding-left: 5%;
+}
+
+.getInspired-page .wedding-data.row .col-4:first-child {
+  margin-left: 0 !important;
+}
+.getInspired-page .wedding-data.row .col-4 {
+  margin-left: 3%;
+  width: 31.33333333%;
+}

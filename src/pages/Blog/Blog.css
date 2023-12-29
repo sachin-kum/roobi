@@ -1,0 +1,393 @@
+.Blog-Page .blog-head-img {
+  background-image: url("/public/static/page3img1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 100%;
+  margin-bottom: 7vh;
+  height: auto;
+}
+
+.Blog-PageInner {
+  max-width: 1728px;
+  margin: auto;
+  padding: 0 170px;
+}
+.Blog-Page .blog-head-text {
+  color: white;
+  font-weight: 400;
+  padding: 20vh 28vw;
+}
+.Blog-Page .blog-head-text h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.Blog-Page .blogPlus {
+  position: absolute;
+  right: 25px;
+  top: 30px;
+  border-radius: 50%;
+
+  color: white;
+  padding: 4px 9px;
+  border: 0;
+}
+.Blog-Page .blogThreePlus {
+  position: absolute;
+  right: 25px;
+  top: 30px;
+  border-radius: 50%;
+
+  color: white;
+  padding: 4px 9px;
+  border: 0;
+}
+
+.Blog-Page .inspireImage-col {
+  padding: 0 30px;
+}
+/* row col-3 css start */
+.Blog-Page .when-where p {
+  color: #525045;
+  font-weight: 700;
+}
+.Blog-Page .img-btn {
+  border-radius: 40px;
+  /* padding: 10px; */
+  font-weight: 650;
+}
+.Blog-Page .when-where p {
+  color: #525045;
+  font-weight: 600;
+  font-size: 20px;
+}
+/* .Blog-Page  .col-4 {
+  width: 27%;
+} */
+.Blog-Page .wedding-data {
+  margin: auto;
+  row-gap: 80px;
+  justify-content: center;
+}
+.Blog-Page .wedding-data1 {
+  margin: auto;
+}
+.Blog-Page .inspireImage {
+  height: auto;
+  position: relative;
+}
+.Blog-Page .inspireImage img {
+  width: 100%;
+}
+.Blog-Page .card-container {
+  margin: 7vh 0px;
+}
+.Blog-Page .when-where p {
+  margin: 10px 0px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.Blog-Page .inspire-data p {
+  margin: 15px 0px;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 500;
+}
+.Blog-Page .inspire-data h2 {
+  font-size: 30px;
+  margin-top: 4vh;
+}
+.Blog-Page .inspire-data button {
+  font-family: "Montserrat";
+  height: auto;
+  font-size: 20px;
+  padding: 8px 21px;
+}
+
+.Blog-Page .inspireImage-3 {
+  padding: 0 20px;
+}
+/* row col-3 css end */
+
+.Blog-Page .blog-grass-text {
+  padding: 40px 20px;
+}
+.Blog-Page .blog-grass-text h2 {
+  color: #027656;
+  font-size: 35px;
+}
+.Blog-Page .blog-grass-text p {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  color: #525045;
+  font-weight: 500;
+}
+.Blog-Page .discover1-btn button {
+  font-family: "Montserrat";
+  border-radius: 35px;
+  border: 4px solid #027656;
+
+  height: auto;
+  font-weight: 600;
+  color: #027656;
+  font-size: 1.2rem;
+  padding: 9px 22px;
+}
+.Blog-Page .blog-grass {
+  padding: 40px 0;
+}
+/* .Blog-Page  .blog-row{
+  height: 100%;
+}  */
+
+.Blog-Page .grass-img {
+  position: relative;
+}
+.Blog-Page .grass-img button {
+  position: absolute;
+  right: 55px;
+  top: 50px;
+  border-radius: 50%;
+  background-color: #027656;
+  color: white;
+  padding: 4px 9px;
+  border: 0;
+}
+.Blog-Page .grass-img img {
+  width: 100%;
+}
+
+@media screen and (min-width: 1956px) {
+  .Blog-Page .blog-grass {
+    padding: 40px 30px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1241px) {
+  .Blog-Page .blog-head-text {
+    padding: 20vh 20vw;
+  }
+  .Blog-PageInner {
+    padding: 0 50px;
+  }
+  .Blog-Page .inspire-data button {
+    font-size: 17px;
+    padding: 6px 20px;
+  }
+  .Blog-Page .inspire-data p {
+    font-size: 16px;
+  }
+  .Blog-Page .inspire-data h2 {
+    font-size: 27px;
+  }
+
+  .Blog-Page .discover1-btn button {
+    border: 3px solid #027656;
+    font-size: 17px;
+    padding: 6px 20px;
+  }
+  .Blog-Page .blog-head-text h1 {
+    font-size: 3rem;
+  }
+  .Blog-Page .inspireImage-col {
+    padding: 0 10px;
+  }
+  .Blog-Page .inspireImage-3 {
+    padding: 0 10px;
+  }
+  .Blog-Page .blog-grass {
+    padding: 40px 0;
+  }
+  .Blog-Page .blog-grass-text {
+    padding: 0;
+  }
+  .Blog-Page .blog-grass-text p {
+    font-size: 16px;
+    color: #525045;
+    font-weight: 500;
+  }
+  .grass-img {
+    display: grid;
+    place-items: center;
+  }
+  .Blog-Page .blog-grass-text h2 {
+    font-size: 27px;
+  }
+  .Blog-Page .blogPlus {
+    right: 15px;
+    top: 15px;
+    padding: 1px 5px;
+  }
+  .Blog-Page .blogThreePlus {
+    right: 15px;
+    top: 15px;
+    padding: 3px 7px;
+  }
+  .Blog-Page .grass-img button {
+    right: 35px;
+  }
+}
+
+@media (min-width: 1242px) and (max-width: 1450px) {
+  .Blog-Page .blog-head-text {
+    padding: 20vh 20vw;
+  }
+  .Blog-Page .blog-head-text h1 {
+    font-size: 3.5rem;
+  }
+  .Blog-Page .inspireImage-col {
+    padding: 0 10px;
+  }
+  .Blog-Page .inspireImage-3 {
+    padding: 0 10px;
+  }
+  .Blog-Page .blog-grass {
+    padding: 40px 0;
+  }
+  .Blog-Page .blog-grass-text {
+    padding: 0;
+  }
+
+  .Blog-Page .blogPlus {
+    right: 18px;
+    top: 18px;
+    padding: 1px 5px;
+  }
+  .Blog-Page .blogThreePlus {
+    right: 18px;
+    top: 18px;
+    padding: 3px 7px;
+  }
+  .Blog-Page .grass-img button {
+    right: 35px;
+  }
+  .grass-img {
+    display: grid;
+    place-items: center;
+  }
+}
+
+@media (min-width: 1451px) and (max-width: 1650px) {
+  .Blog-Page .blog-head-text {
+    padding: 20vh 20vw;
+  }
+  .Blog-Page .blog-head-text h1 {
+    font-size: 3.5rem;
+  }
+  .Blog-Page .inspireImage-col {
+    padding: 0 30px;
+  }
+  .Blog-Page .inspireImage-3 {
+    padding: 0 20px;
+  }
+  .Blog-Page .blog-grass {
+    padding: 60px 0;
+  }
+  .Blog-Page .blog-grass-text {
+    padding: 20px;
+  }
+
+  .Blog-Page .blogPlus {
+    right: 20px;
+    top: 20px;
+    padding: 3px 9px;
+  }
+  .Blog-Page .blogThreePlus {
+    right: 20px;
+    top: 20px;
+    padding: 4px 9px;
+  }
+  .Blog-Page .grass-img button {
+    right: 45px;
+  }
+  .grass-img {
+    display: grid;
+    place-items: center;
+  }
+}
+
+@media (min-width: 1242px) and (max-width: 1367px) {
+  .Blog-PageInner {
+    padding: 0 140px;
+  }
+  .Blog-Page .inspire-data button {
+    font-size: 18px;
+    padding: 6px 20px;
+  }
+  .Blog-Page .inspire-data p {
+    font-size: 16px;
+  }
+  .Blog-Page .inspire-data h2 {
+    font-size: 27px;
+  }
+
+  .Blog-Page .discover1-btn button {
+    border: 3px solid #027656;
+    font-size: 17px;
+    padding: 6px 20px;
+  }
+  .Blog-Page .blog-grass-text h2 {
+    font-size: 30px;
+  }
+  .Blog-Page .blog-grass-text p {
+    font-size: 17px;
+  }
+}
+@media (min-width: 1368px) and (max-width: 1500px) {
+  .Blog-PageInner {
+    padding: 0 150px;
+  }
+  .Blog-Page .inspire-data button {
+    font-size: 18px;
+    padding: 7px 20px;
+  }
+  .Blog-Page .inspire-data p {
+    font-size: 16px;
+  }
+  .Blog-Page .inspire-data h2 {
+    font-size: 27px;
+  }
+
+  .Blog-Page .discover1-btn button {
+    border: 3px solid #027656;
+    font-size: 17px;
+    padding: 7px 20px;
+  }
+  .Blog-Page .blog-grass-text h2 {
+    font-size: 34px;
+  }
+  .Blog-Page .blog-grass-text p {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1501px) and (max-width: 1600px) {
+  .Blog-PageInner {
+    padding: 0 150px;
+  }
+  .Blog-Page .inspire-data button {
+    font-size: 18px;
+    padding: 7px 20px;
+  }
+  .Blog-Page .inspire-data p {
+    font-size: 16px;
+  }
+  .Blog-Page .inspire-data h2 {
+    font-size: 27px;
+  }
+
+  .Blog-Page .discover1-btn button {
+    border: 3px solid #027656;
+    font-size: 18px;
+    padding: 7px 20px;
+  }
+  .Blog-Page .blog-grass-text h2 {
+    font-size: 35px;
+  }
+  .Blog-Page .blog-grass-text p {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,303 @@
+.FAQs {
+    max-width: 921px;
+    margin: auto;
+    padding: 100px 0 50px 0;
+}
+
+.FAQs-top {
+    max-width: 1490px;
+    margin: auto;
+}
+
+.FAQs-heading,
+.FAQs-para {
+    text-align: center;
+    font-family: 'Laviossa';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.FAQs-heading {
+    line-height: 75px;
+    color: #EC6877;
+    font-size: 64px;
+}
+
+.FAQs-para {
+    line-height: 50px;
+    color: #00B0D7;
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.FAQs-quiry {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 51px;
+}
+
+.q-1 {
+    color: #027656;
+}
+
+.q-2 {
+    color: #525045;
+}
+
+/* quetion */
+.q-box {
+    width: 100%;
+}
+
+.hr_line {
+    width: 100%;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.quetion {
+    max-width: 1490px;
+    margin: auto;
+    margin-top: 96px;
+}
+
+.quetion-field {
+    position: relative;
+    width: 100%;
+    padding: 0px 4px;
+}
+
+.qs-part {
+    width: 100%;
+    padding-right: 30px;
+    padding: 33px 0px;
+}
+
+.ans-toggle {
+    top: 45px;
+    position: absolute;
+    right: 15px;
+}
+
+.ans-tbtn {
+    width: 18px;
+    height: 18px;
+    border: 0;
+    transition: all 0.2s linear;
+}
+
+.ans-tbtn.active {
+    transform: rotate(180deg);
+}
+
+.qtn {
+    color: #1E3B76;
+    font-family: 'Laviossa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.ans {
+    max-width: 70%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #525045;
+    margin: 33px 0px;
+    display: none;
+}
+
+.ans.active {
+    display: block;
+}
+
+.FAQs-Chat{
+    display: grid;
+    place-items: center;
+    margin: 50px 0;
+}
+.FAQs-chatBox{
+    padding: 100px 100px;
+    background-color: #F8B912;
+    text-align: center;
+    max-width: 1000px;
+    border-radius: 60px;
+    color: white;
+    font-weight: bold;
+}
+.FAQs-chatBox button{
+    border: 3px solid white;
+border-radius: 30px;
+padding: 8px 30px;
+color: white;
+font-weight: bold;
+margin: 30px 0;
+}
+
+
+@media (min-width:1242px) and (max-width:1600px){
+    .quetion {
+        width: 75%;
+    }
+    .FAQs-chatBox {
+        max-width: 951px;
+    }
+    .FAQs-chatBox{
+        padding: 80px 50px;
+    }
+}
+
+@media (max-width:1240px) {
+    .quetion {
+        width: 75%;
+    }
+
+    .FAQs-para {
+        line-height: 44px;
+        font-size: 30px;
+        margin-top: 26px;
+    }
+
+    .FAQs-heading {
+        line-height: 71px;
+        font-size: 45px;
+    }
+
+    .qtn {
+        font-size: 25px;
+        line-height: 45px;
+    }
+
+    .ans {
+        margin: 25px 0px;
+    }
+
+    .FAQs-quiry {
+        top: 40px
+    }
+
+    .quetion {
+        margin-top: 10px;
+    }
+    .FAQs-chatBox {
+        max-width: 851px;
+    }
+    .FAQs-chatBox{
+        padding: 65px 30px;
+    }
+}
+
+@media (max-width:768px) {
+    .FAQs-para {
+        line-height: 30px;
+        font-size: 20px;
+        margin-top: 16px;
+    }
+
+    .FAQs-heading {
+        line-height: 60px;
+        font-size: 50px;
+    }
+
+    .qs-part {
+        padding: 26px 0px;
+    }
+
+    .ans-toggle {
+        top: 26px;
+    }
+
+    .ans-tbtn {
+        width: 16px;
+        height: 16px;
+    }
+
+    .qtn {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .ans {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .FAQs-quiry {
+        font-size: 17px;
+        margin-top: 40px;
+    }
+
+    .quetion {
+        margin-top: 70px;
+    }
+}
+
+@media (max-width:530px) {
+
+    .FAQs-heading {
+        line-height: 32px;
+        font-size: 26px;
+    }
+
+    .FAQs-para {
+        line-height: 24px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .FAQs-quiry {
+        font-size: 12px;
+        margin-top: 13px;
+    }
+
+    .quetion {
+        margin-top: 30px;
+    }
+
+    .qs-part {
+        padding: 16px 0px;
+    }
+
+    .ans {
+        font-size: 12px;
+        line-height: 18px;
+        max-width: 92%;
+        margin: 15px 0px;
+    }
+
+    .ans-toggle {
+        top: 16px;
+
+    }
+
+    .ans-tbtn {
+        width: 12px;
+        height: 12px;
+    }
+
+    .qtn {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (min-width:1201px) and (max-width:1450px){
+    .FAQs-para {
+        font-size: 30px;
+    }
+    .FAQs-heading{
+        font-size: 45px;
+    }
+    .qtn {
+        font-size: 30px;
+    }
+    
+}

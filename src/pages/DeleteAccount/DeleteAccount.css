@@ -1,0 +1,87 @@
+.delete-content {
+  padding: 4% 0;
+}
+.delete-content h2 {
+  color: #027656;
+  font-size: 35px;
+}
+.delete-content h5 {
+  color: #525045;
+  font-weight: bold;
+  padding: 30px 0;
+  font-family: "Montserrat";
+}
+
+.select-delete {
+  margin: 30px 0;
+}
+.select-delete input[type="radio"] {
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+}
+.select-delete p {
+  font-family: "Montserrat";
+  color: #525045;
+  padding: 0 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.account-next-btn button {
+  font-family: "Montserrat";
+  font-weight: 600;
+  border: 3px solid #1e3b76;
+  color: #1e3b76;
+  padding: 8px 30px;
+  font-size: 18px;
+  border-radius: 30px;
+}
+.back-next-btn {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  cursor: pointer;
+}
+.back-next-btn h4 {
+  font-family: "Montserrat";
+  color: #1e3b76;
+  font-weight: bold;
+}
+.back-next-btn button {
+  background-color: #901346;
+  border-radius: 30px;
+  padding: 8px 30px;
+  border: 0;
+  color: white;
+  font-weight: 600;
+}
+.delete-content p,
+.Delete-list {
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #525045;
+}
+.contact-support button {
+  color: #1e3b76;
+  border: 3px solid #1e3b76;
+  padding: 8px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.deleteAccount-step2 {
+  padding: 50px 0;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1441px) {
+  .delete-content {
+    padding: 60px 200px 60px 100px;
+  }
+  .delete-content h2 {
+    font-size: 30px;
+  }
+}

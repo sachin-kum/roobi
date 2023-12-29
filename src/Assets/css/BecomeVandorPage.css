@@ -1,0 +1,980 @@
+.vandor-container {
+  overflow: hidden;
+  max-width: 1728px;
+  margin: auto;
+}
+.vandor_image {
+  background-image: url("/public/static/vendor_img.png");
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.vandor_image .img-content {
+  padding-top: 140px;
+  padding-bottom: 90px;
+  justify-content: center;
+}
+.vandor_image h1 {
+  color: #ffffff;
+  max-width: 900px;
+  font-size: 64px;
+  font-weight: 400;
+}
+.vandor-heading span {
+  color: #1e3b76;
+  background: #ffecd0;
+}
+.vandor-btn button {
+  border-radius: 40px;
+  color: #1e3b76;
+  font-weight: bold;
+  background-color: #ffffff;
+  padding: 8px 40px 8px 40px;
+  font-variant: small-caps;
+  font-size: 20px;
+  font-family: "Montserrat";
+  border: 0;
+}
+
+.vandor-section {
+  padding-left: 200px;
+  padding-right: 100px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  position: relative;
+}
+
+.vandorRing1,
+.vandorRing2,
+.vandorRing3,
+.vandorRing4,
+.vandorRing5,
+.vandorRing6 {
+  position: absolute;
+}
+
+.vandorRing1 {
+  width: 357px;
+  height: 357px;
+  left: -219px;
+  top: 67px;
+  z-index: -1;
+}
+
+.vandorRing1::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 3px solid #ca8bbb;
+  border-radius: 50%;
+}
+
+.vandorRing2 {
+  width: 227px;
+  height: 227px;
+  left: -140px;
+  top: 307px;
+  z-index: -1;
+}
+
+.vandorRing2::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 3px solid #66c0be;
+  border-radius: 50%;
+}
+
+.vandorRing3 {
+  width: 285px;
+  height: 285px;
+  right: 740px;
+  top: 44px;
+  z-index: -1;
+}
+
+.vandorRing3::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 3px solid #ec6877;
+  border-radius: 50%;
+}
+
+.vandorRing4 {
+  width: 205px;
+  height: 205px;
+  right: 640px;
+  top: 44px;
+  z-index: -1;
+}
+
+.vandorRing4::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 3px solid #027656;
+  border-radius: 50%;
+}
+
+.vandorRing5 {
+  width: 581px;
+  height: 581px;
+  right: -212px;
+  top: 98px;
+  z-index: -1;
+}
+
+.vandorRing5::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 3px solid #f8b912;
+  border-radius: 50%;
+}
+
+.vandorRing6 {
+  width: 335px;
+  height: 335px;
+  right: 98px;
+  top: 450px;
+  z-index: -1;
+}
+
+.vandorRing6::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 3px solid #00b0d7;
+  border-radius: 50%;
+}
+
+.vandor-para-image {
+  display: flex;
+  justify-content: flex-end;
+}
+.vandor-para-image img {
+  width: 650px;
+  height: 410px;
+}
+.vandor-para {
+  max-width: 680px;
+  padding: 50px 120px;
+}
+.vandor-heading h2 {
+  color: #1e3b76;
+  font-size: 30px;
+  line-height: 50px;
+}
+.vandor-text {
+  padding-top: 25px;
+  line-height: 38px;
+}
+.vandor-text p {
+  font-family: "Montserrat";
+  color: #525045;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.weddingMenu_Container {
+  max-width: 1728px;
+}
+
+.weddingMenu {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 0;
+  padding-bottom: 60px;
+}
+._wedidngMenu-image img {
+  width: 100%;
+}
+
+._weddingMenu-text {
+  max-width: 350px;
+  padding-left: 45px;
+  padding-top: 30px;
+
+  line-height: 47px;
+}
+._weddingMenu-text h3 {
+  color: #ec6877;
+}
+._weddingMenu-text h4 {
+  color: #525045;
+  padding-top: 20px;
+  font-family: "Montserrat";
+}
+
+.question-box {
+  background-color: #f8b912;
+  color: #ffffff;
+  border-radius: 50px;
+  margin: 50px 0;
+}
+.question-box .question-content {
+  text-align: center;
+  padding: 100px 200px;
+}
+.question-content h2 {
+  font-size: 35px;
+}
+.chat-btn button {
+  font-family: "Montserrat";
+  border-radius: 30px;
+  background-color: transparent;
+  border: 3px solid white;
+  padding: 7px 30px;
+  color: white;
+  font-weight: 600;
+}
+
+.vandorGallery {
+  max-width: 1728px;
+  margin: auto;
+}
+.vandor-gallery-row img {
+  width: 100%;
+  height: 300px;
+}
+.vandor-gallery-row {
+  gap: 20px;
+  overflow: hidden;
+}
+.vandor-image-gallery {
+  display: flex;
+}
+.vandor-gallery-row {
+  margin: 0;
+  padding: 20px 0;
+}
+.vandor-gallery-row2 {
+  margin: 0;
+  padding: 20px 0;
+}
+
+.vandor-row2-content {
+  padding: 40px;
+  display: grid;
+  place-items: center;
+}
+.vandor-row2-content h3 {
+  color: #ec6877;
+  text-align: center;
+}
+.vandor-row2-content button {
+  color: #ec6877;
+  border: 3px solid #ec6877;
+  border-radius: 30px;
+  padding: 6px 20px;
+  margin-top: 8%;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 20px;
+}
+
+.vandor-row2Image img {
+  width: 100%;
+  height: 307px;
+}
+.vandor-gallery-row3 {
+  display: flex;
+  padding: 20px 0;
+  gap: 20px;
+  overflow: hidden;
+}
+.vandor-image-gallery-1 img {
+  width: 100%;
+}
+.vandor-image-gallery-2 img {
+  width: 100%;
+}
+.vandor-image-gallery-3 img {
+  width: 100%;
+}
+
+.vandor-image-gallery-4 img {
+  width: 100%;
+}
+
+.vandor-gallery-show {
+  display: flex;
+  padding: 20px 0;
+  gap: 20px;
+  overflow: hidden;
+}
+.vandor-gallery-show img {
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1241px) {
+  .vandor_image .img-content {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  .vandor-section {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 150px;
+    padding-bottom: 200px;
+  }
+  .vandor_image h1 {
+    font-size: 44px;
+    max-width: 600px;
+  }
+  .vandor-para-image img {
+    width: 450px;
+    height: 310px;
+  }
+  .vandor-para {
+    max-width: 680px;
+    padding: 10px 40px 10px 130px;
+  }
+
+  .vandorRing1 {
+    width: 300px;
+    height: 300px;
+    left: -219px;
+    top: 67px;
+    z-index: -1;
+  }
+  .vandorRing2 {
+    width: 200px;
+    height: 200px;
+    left: -140px;
+    top: 257px;
+  }
+  .vandorRing3 {
+    width: 250px;
+    height: 250px;
+    right: 300px;
+    top: 44px;
+  }
+  .vandorRing4 {
+    width: 155px;
+    height: 155px;
+    right: 225px;
+    top: 44px;
+  }
+  .vandorRing5 {
+    width: 341px;
+    height: 341px;
+    right: -212px;
+    top: 98px;
+  }
+  .vandorRing6 {
+    width: 265px;
+    height: 265px;
+    right: 8px;
+    top: 330px;
+  }
+
+  ._weddingMenu-text {
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+
+  ._weddingMenu-text h3 {
+    font-size: 26px;
+  }
+  ._weddingMenu-text h4 {
+    padding-top: 10px;
+  }
+  .question-box .question-content {
+    padding: 50px 90px;
+  }
+  .question-content h2 {
+    font-size: 30px;
+  }
+  .question-box {
+    margin: 50px;
+  }
+
+  .vandor-gallery-row img {
+    height: 200px;
+  }
+  .vandor-row2Image img {
+    height: 207px;
+  }
+  .vandor-row2-content {
+    padding: 10px 0;
+  }
+  .vandor-image-gallery-1 img {
+    height: 207px;
+  }
+  .vandor-image-gallery-2 img {
+    height: 207px;
+  }
+  .vandor-image-gallery-3 img {
+    height: 207px;
+  }
+  .vandor-image-gallery-4 img {
+    height: 207px;
+  }
+}
+
+@media screen and (min-width: 1242px) and (max-width: 1367px) {
+  .vandor-section {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  .vandor_image .img-content {
+    padding-top: 110px;
+    padding-bottom: 60px;
+  }
+  .vandor_image h1 {
+    font-size: 50px;
+    max-width: 700px;
+  }
+  .vandor-para-image img {
+    width: 450px;
+    height: 310px;
+  }
+  .vandor-para {
+    max-width: 680px;
+    padding: 25px 50px 10px 150px;
+  }
+  .vandor-para2 {
+    display: grid;
+    place-items: center;
+  }
+  .vandorRing1 {
+    width: 300px;
+    height: 300px;
+    left: -219px;
+    top: 67px;
+    z-index: -1;
+  }
+  .vandorRing2 {
+    width: 200px;
+    height: 200px;
+    left: -140px;
+    top: 257px;
+  }
+  .vandorRing3 {
+    width: 250px;
+    height: 250px;
+    right: 400px;
+    top: 44px;
+  }
+  .vandorRing4 {
+    width: 155px;
+    height: 155px;
+    right: 325px;
+    top: 44px;
+  }
+  .vandorRing5 {
+    width: 341px;
+    height: 341px;
+    right: -142px;
+    top: 98px;
+  }
+  .vandorRing6 {
+    width: 265px;
+    height: 265px;
+    right: 8px;
+    top: 330px;
+  }
+
+  ._weddingMenu-text {
+    padding-left: 25px;
+    padding-top: 20px;
+  }
+
+  ._weddingMenu-text h3 {
+    font-size: 30px;
+  }
+  ._weddingMenu-text h4 {
+    padding-top: 10px;
+  }
+  .question-box .question-content {
+    padding: 50px 110px;
+  }
+  .question-content h2 {
+    font-size: 30px;
+  }
+  .question-box {
+    margin: 50px;
+  }
+
+  .vandor-gallery-row img {
+    height: 200px;
+  }
+  .vandor-row2Image img {
+    height: 207px;
+  }
+  .vandor-row2-content {
+    padding: 10px 0;
+  }
+  .vandor-image-gallery-1 img {
+    height: 207px;
+  }
+  .vandor-image-gallery-2 img {
+    height: 207px;
+  }
+  .vandor-image-gallery-3 img {
+    height: 207px;
+  }
+  .vandor-image-gallery-4 img {
+    height: 207px;
+  }
+}
+
+@media screen and (min-width: 1368px) and (max-width: 1450px) {
+  .vandor-section {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  .vandor_image .img-content {
+    padding-top: 120px;
+    padding-bottom: 70px;
+  }
+  .vandor_image h1 {
+    font-size: 55px;
+    max-width: 800px;
+  }
+  .vandor-para-image img {
+    width: 500px;
+    height: 350px;
+  }
+  .vandor-para {
+    max-width: 680px;
+    padding: 10px 50px 10px 150px;
+  }
+  .vandor-para2 {
+    display: grid;
+    place-items: center;
+  }
+  .vandorRing1 {
+    width: 300px;
+    height: 300px;
+    left: -219px;
+    top: 67px;
+    z-index: -1;
+  }
+  .vandorRing2 {
+    width: 200px;
+    height: 200px;
+    left: -140px;
+    top: 257px;
+  }
+  .vandorRing3 {
+    width: 250px;
+    height: 250px;
+    right: 450px;
+    top: 44px;
+  }
+  .vandorRing4 {
+    width: 195px;
+    height: 195px;
+    right: 345px;
+    top: 54px;
+  }
+  .vandorRing5 {
+    width: 361px;
+    height: 371px;
+    right: -152px;
+    top: 158px;
+  }
+  .vandorRing6 {
+    width: 265px;
+    height: 265px;
+    right: 18px;
+    top: 380px;
+  }
+
+  ._weddingMenu-text {
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+
+  ._weddingMenu-text h3 {
+    font-size: 30px;
+  }
+  ._weddingMenu-text h4 {
+    padding-top: 10px;
+  }
+  .question-box .question-content {
+    padding: 50px 90px;
+  }
+  .question-content h2 {
+    font-size: 30px;
+  }
+  .question-box {
+    margin: 50px;
+  }
+
+  .vandor-gallery-row img {
+    height: 200px;
+  }
+  .vandor-row2Image img {
+    height: 207px;
+  }
+  .vandor-row2-content {
+    padding: 10px 0;
+  }
+  .vandor-image-gallery-1 img {
+    height: 207px;
+  }
+  .vandor-image-gallery-2 img {
+    height: 207px;
+  }
+  .vandor-image-gallery-3 img {
+    height: 207px;
+  }
+  .vandor-image-gallery-4 img {
+    height: 207px;
+  }
+}
+
+@media screen and (min-width: 1451px) and (max-width: 1580px) {
+  .vandor-section {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  .vandor_image h1 {
+    font-size: 60px;
+    max-width: 850px;
+  }
+  .vandor-para-image img {
+    width: 600px;
+    height: 400px;
+  }
+  .vandor-para {
+    max-width: 680px;
+    padding: 10px 50px 10px 150px;
+  }
+  .vandor-para2 {
+    display: grid;
+    place-items: center;
+  }
+  .vandorRing1 {
+    width: 300px;
+    height: 300px;
+    left: -219px;
+    top: 67px;
+    z-index: -1;
+  }
+  .vandorRing2 {
+    width: 200px;
+    height: 200px;
+    left: -140px;
+    top: 257px;
+  }
+  .vandorRing3 {
+    width: 250px;
+    height: 250px;
+    right: 600px;
+    top: 64px;
+  }
+  .vandorRing4 {
+    width: 195px;
+    height: 195px;
+    right: 500px;
+    top: 54px;
+  }
+  .vandorRing5 {
+    width: 361px;
+    height: 371px;
+    right: -82px;
+    top: 158px;
+  }
+  .vandorRing6 {
+    width: 265px;
+    height: 265px;
+    right: 38px;
+    top: 430px;
+  }
+
+  ._weddingMenu-text {
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+
+  ._weddingMenu-text h3 {
+    font-size: 32px;
+  }
+  ._weddingMenu-text h4 {
+    padding-top: 10px;
+  }
+  .question-box .question-content {
+    padding: 50px 90px;
+  }
+  .question-content h2 {
+    font-size: 30px;
+  }
+  .question-box {
+    margin: 50px;
+  }
+
+  .vandor-gallery-row img {
+    height: 200px;
+  }
+  .vandor-row2Image img {
+    height: 207px;
+  }
+  .vandor-row2-content {
+    padding: 10px 0;
+  }
+  .vandor-image-gallery-1 img {
+    height: 207px;
+  }
+  .vandor-image-gallery-2 img {
+    height: 207px;
+  }
+  .vandor-image-gallery-3 img {
+    height: 207px;
+  }
+  .vandor-image-gallery-4 img {
+    height: 207px;
+  }
+}
+
+@media screen and (min-width: 1581px) and (max-width: 1730px) {
+  .vandor-section {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+  .vandor-para-image img {
+    width: 600px;
+    height: 400px;
+  }
+  .vandor-para {
+    max-width: 680px;
+    padding: 10px 50px 10px 150px;
+  }
+  /* .vandor-para2{
+    display: grid;
+    place-items: center;
+  } */
+  .vandorRing1 {
+    width: 300px;
+    height: 300px;
+    left: -219px;
+    top: 67px;
+    z-index: -1;
+  }
+  .vandorRing2 {
+    width: 200px;
+    height: 200px;
+    left: -140px;
+    top: 257px;
+  }
+  .vandorRing3 {
+    width: 250px;
+    height: 250px;
+    right: 600px;
+    top: 44px;
+  }
+  .vandorRing4 {
+    width: 195px;
+    height: 195px;
+    right: 505px;
+    top: 54px;
+  }
+  .vandorRing5 {
+    width: 361px;
+    height: 371px;
+    right: -52px;
+    top: 158px;
+  }
+  .vandorRing6 {
+    width: 265px;
+    height: 265px;
+    right: 48px;
+    top: 380px;
+  }
+
+  ._weddingMenu-text {
+    padding-left: 25px;
+    padding-top: 10px;
+  }
+
+  ._weddingMenu-text h3 {
+    font-size: 35px;
+  }
+  ._weddingMenu-text h4 {
+    padding-top: 10px;
+  }
+  .question-box .question-content {
+    padding: 50px 90px;
+  }
+  .question-content h2 {
+    font-size: 30px;
+  }
+  .question-box {
+    margin: 50px;
+  }
+
+  .vandor-gallery-row img {
+    height: 200px;
+  }
+  .vandor-row2Image img {
+    height: 207px;
+  }
+  .vandor-row2-content {
+    padding: 10px 0;
+  }
+  /* .vandor-image-gallery-1 img {
+    height: 257px;
+  }
+  .vandor-image-gallery-2 img {
+    height: 257px;
+  }
+  .vandor-image-gallery-3 img {
+    height: 257px;
+  }
+  .vandor-image-gallery-4 img {
+    height: 257px;
+  } */
+}
+
+@media screen and (min-width: 1731px) and (max-width: 1880px) {
+  .vandor-section {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  .vandor-para-image img {
+    width: 600px;
+    height: 400px;
+  }
+  .vandor-para {
+    max-width: 680px;
+    padding: 10px 50px 10px 150px;
+  }
+  /* .vandor-para2{
+    display: grid;
+    place-items: center;
+  } */
+  .vandorRing1 {
+    width: 300px;
+    height: 300px;
+    left: -219px;
+    top: 67px;
+    z-index: -1;
+  }
+  .vandorRing2 {
+    width: 200px;
+    height: 200px;
+    left: -140px;
+    top: 257px;
+  }
+  .vandorRing3 {
+    width: 250px;
+    height: 250px;
+    right: 640px;
+    top: 44px;
+  }
+  .vandorRing4 {
+    width: 195px;
+    height: 195px;
+    right: 545px;
+    top: 54px;
+  }
+  .vandorRing5 {
+    width: 461px;
+    height: 471px;
+    right: -52px;
+    top: 158px;
+  }
+  .vandorRing6 {
+    width: 265px;
+    height: 265px;
+    right: 155px;
+    top: 470px;
+  }
+
+  ._weddingMenu-text {
+    padding-left: 55px;
+    padding-top: 10px;
+  }
+
+  ._weddingMenu-text h3 {
+    font-size: 35px;
+  }
+  ._weddingMenu-text h4 {
+    padding-top: 10px;
+  }
+  .question-box .question-content {
+    padding: 50px 90px;
+  }
+  .question-content h2 {
+    font-size: 30px;
+  }
+  .question-box {
+    margin: 50px;
+  }
+
+  .vandor-gallery-row img {
+    height: 200px;
+  }
+  .vandor-row2Image img {
+    height: 207px;
+  }
+  .vandor-row2-content {
+    padding: 10px 0;
+  }
+  .vandor-image-gallery-1 img {
+    height: 207px;
+  }
+  .vandor-image-gallery-2 img {
+    height: 207px;
+  }
+  .vandor-image-gallery-3 img {
+    height: 207px;
+  }
+  .vandor-image-gallery-4 img {
+    height: 207px;
+  }
+}
+
+/* @media screen and (min-width:2070px) {
+
+
+  .vandorRing3 {
+    width: 250px;
+    height: 250px;
+    right: 840px;
+    top: 44px;
+    
+  }
+  .vandorRing4 {
+    width: 195px;
+    height: 195px;
+    right: 745px;
+    top: 54px;
+   
+  }
+  .vandorRing5 {
+    width: 461px;
+        height: 471px;
+        right: 102px;
+        top: 158px;
+  }
+  .vandorRing6 {
+    width: 265px;
+    height: 265px;
+    right: 275px;
+    top: 480px;
+  }
+  
+} */

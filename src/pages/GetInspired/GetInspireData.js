@@ -1,0 +1,121 @@
+export const getInspireData = [
+  {
+    id: 1,
+    image: "static/hellot.png",
+    title: "Wedding title ",
+    line: "Where | When | How many people ",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...",
+    btn: "DISCOVER MORE",
+    titleColor: "#F8B912",
+    btnColor: "#F8B912",
+    borderColor: "#F8B912",
+  },
+  {
+    id: 2,
+    image: "static/wedding-title2.png",
+    title: "Wedding title ",
+    line: "Where | When | How many people ",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...",
+    btn: "DISCOVER MORE",
+    titleColor: "#027656",
+    btnColor: "#027656",
+    borderColor: "#027656",
+  }, 
+  {
+    id: 3,
+    image: "static/wedding-title3.png",
+    title: "Wedding title ",
+    line: "Where | When | How many people ",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...",
+    btn: "DISCOVER MORE",
+    titleColor: "#66C0BE",
+    btnColor: "#66C0BE",
+    borderColor: "#66C0BE", 
+  }
+];
+
+
+
+  export const getInspireData1 = [
+  {
+    id1: 4,
+    title1: "Wedding title ",
+    image1: "static/wedding-title4.png",
+    line1: "Where | When | How many people ",
+    text1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...",
+    btn1: "DISCOVER MORE",
+    titleColor1: "#901346",
+    btnColor1: "#901346",
+    borderColor1: "#901346", 
+  },
+  {
+    id1: 5,
+    image1: "static/wedding-title5.png",
+    title1: "Wedding title ",
+    line1: "Where | When | How many people ",
+    text1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...",
+    btn1: "DISCOVER MORE",
+    titleColor1: "#00B0D7",
+    btnColor1: "#00B0D7",
+    borderColor1: "#00B0D7", 
+  },
+  {
+    id1: 6,
+    image1: "static/wedding-title6.png",
+    title1: "Wedding title ",
+    line1: "Where | When | How many people ",
+    text1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...",
+    btn1: "DISCOVER MORE",
+    titleColor1: "#EC6877",
+    btnColor1: "#EC6877",
+    borderColor1: "#EC6877", 
+  },
+  {
+    id1: 7,
+    image1: "static/wedding-title7.png",
+    title1: "Wedding title ",
+    line1: "Where | When | How many people ",
+    text1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...",
+    btn1: "DISCOVER MORE",
+    titleColor1: "#FF4304",
+    btnColor1: "#FF4304",
+    borderColor1: "#FF4304", 
+  },
+];
+
+
+export const getInspireData3 = [
+  {
+    id: 1,
+    image: "static/wedding-title9.png",
+    title: "Wedding title ",
+    line: "Where | When | How many people ",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...",
+    btn: "DISCOVER MORE",
+    titleColor: "#F8B912",
+    btnColor: "#F8B912",
+    borderColor: "#F8B912",
+  },
+  {
+    id: 2,
+    image: "static/wedding-title10.png",
+    title: "Wedding title ",
+    line: "Where | When | How many people ",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...",
+    btn: "DISCOVER MORE",
+    titleColor: "#027656",
+    btnColor: "#027656",
+    borderColor: "#027656",
+  }, 
+  {
+    id: 3,
+    image: "static/wedding-title11.png",
+    title: "Wedding title ",
+    line: "Where | When | How many people ",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...",
+    btn: "DISCOVER MORE",
+    titleColor: "#66C0BE",
+    btnColor: "#66C0BE",
+    borderColor: "#66C0BE", 
+  }
+];

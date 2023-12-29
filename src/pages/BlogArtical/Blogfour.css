@@ -1,0 +1,376 @@
+
+
+.Blog-Artical .BlogArtical-Container{
+  max-width: 1728px;
+  margin: auto;
+}
+.Blog-Artical .blogArtical-share span{
+  background: white;
+  border-radius: 50%;
+  padding:2px 0px 2px 6px;
+  margin: 0 10px;
+}
+.Blog-Artical .city-img img{
+    width: 100%;
+}
+.Blog-Artical .city-img{
+  position: relative;
+}
+.Blog-Artical .caouselPlus{
+  position: absolute;
+  top: 3%;
+  right: 1%;
+  background-color:  #66C0BE;
+  padding: 2px 6px;
+  z-index: 1;
+  border-radius: 50%;
+}
+.Blog-Artical .brown-container{
+    background-color: #525045; 
+    display: flex;
+    justify-content: center;  
+    padding: 12vh 0px 12vh 0px;
+}
+.Blog-Artical .blog-title{
+    color: white;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+.Blog-Artical .blog-title h1{
+  font-size: 4.5rem;
+}
+.Blog-Artical .blog-title h1{
+  font-size: 5rem;
+}
+.Blog-Artical .blog-title p{
+  font-family: "Montserrat";
+  font-size: 1.3rem;
+}
+
+.Blog-Artical .Liz-Rae{
+padding: 50px 0;
+}
+.Blog-Artical .liz-column{
+  padding: 20px 50px ;
+  display: grid;
+}
+.Blog-Artical .liz-card{
+  border: 2px solid #525045;
+  border-radius: 50px;
+}
+.Blog-Artical .liz-empty{
+  height: 220px;
+  background-color: #D9D9D9;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom: 2px solid #525045;
+}
+.Blog-Artical .liz-content-body{
+  padding: 30px;
+  line-height: 10px;
+}
+.Blog-Artical .liz-content-body h5{
+  color: #EC6877;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 18px;
+}
+.Blog-Artical .liz-content-body p{
+  font-family: 'Montserrat';
+  color: #525045;
+}
+.Blog-Artical .liz-section-conent{
+  padding: 80px 20px 20px 20px;
+}
+.Blog-Artical .liz-section-conent h2{
+  color: #EC6877;
+}
+.Blog-Artical .liz-section-conent p{
+  font-family: 'Montserrat';
+  color: #525045;
+  font-size: 20px;
+  font-weight: 500;
+}
+.Blog-Artical .liz-section-conent button{
+  font-family: 'Montserrat';
+  color: #EC6877;
+  padding: 8px 30px;
+  border: 3px solid #EC6877;
+  border-radius: 30px;
+  margin-top: 20px;
+  background-color: transparent;
+  font-weight: bold;
+}
+.Blog-Artical .experience h2 {
+  color: #901346;
+}
+.Blog-Artical .experience {
+padding: 40px 0;
+}
+.Blog-Artical .experience p {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+.Blog-Artical .evening-text{
+  color: #66C0BE;
+  font-size: 2.7rem;
+ 
+  padding:150px;
+}
+.Blog-Artical .evening-img{
+padding: 0 100px;
+  position: relative;
+}
+.Blog-Artical .evening-img img{
+  width: 100%;
+}
+.Blog-Artical .evening-row{
+  margin: 0px;
+}
+.Blog-Artical .image-grid {
+  margin: 7vh 3vw 7vh 3vw;
+}
+.Blog-Artical .grid-col{
+ padding-top: 20px;
+ position: relative;
+}
+.Blog-Artical .grid-col span{
+  position: absolute;
+  top: 10%;
+  right: 7%;
+  background-color: #66C0BE;
+  border-radius: 50%;
+  padding: 2px 6px;
+
+}
+.Blog-Artical .grid-col img{
+  height: 100%;
+  width: 100%;
+}
+.Blog-Artical .share-this-container {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-around;
+  margin: 10vh 0vw;
+}
+.Blog-Artical .share-this{
+  height: auto;
+  padding: 5vh 0vw;
+  width: 30%;
+  color: #525045;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 2vh;
+}
+.Blog-Artical .share-this h5 {
+  color: #027656;
+}
+.Blog-Artical .share-this p{
+  font-size: 1.3rem;
+  font-family: "Montserrat";
+}
+.Blog-Artical .see-another{
+  text-align: center;
+  font-size: 2.2rem;
+  color: #525045;
+  margin: 10vh 0vw;
+}
+
+
+
+
+
+/* //fjhssdfbsjfbs */
+.Blog-Artical .when-where p {
+  color: #525045;
+  font-weight: 700;
+}
+.Blog-Artical .img-btn {
+  border-radius: 40px;
+  padding: 10px;
+ 
+  font-weight: 650;
+}
+.Blog-Artical .when-where p {
+  color: #525045;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
+.Blog-Artical .each-column{
+  padding: 0 40px;
+}
+.Blog-Artical .inspireImage {
+  margin-bottom: 30px;
+  position: relative;
+  
+}
+
+.Blog-Artical .plus-Button {
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  background: #66C0BE;
+  border-radius: 50%;
+  padding: 2px 6px ;
+}
+.Blog-Artical .plus-Button2 {
+  position: absolute;
+  right: 8%;
+  top: 7%;
+  background: #66C0BE;
+  border-radius: 50%;
+  padding: 2px 6px ;
+}
+.Blog-Artical .plus-Button3 {
+  position: absolute;
+  right: 17%;
+  top: 3%;
+  background: #66C0BE;
+  border-radius: 50%;
+  padding: 2px 6px ;
+}
+.Blog-Artical .best-times-img{
+  position: relative;
+}
+.Blog-Artical .inspireImage img{
+ width: 100%;
+}
+.Blog-Artical .card-container {
+  margin: 7vh 150px;
+}
+.Blog-Artical .when-where p{
+  margin: 10px 0px;
+  font-size: 1.5rem;
+}
+.Blog-Artical .inspire-data p{
+margin: 10px 0px;
+font-family: "Montserrat";
+font-size: 1.4rem;
+}
+.Blog-Artical .inspire-data h2{
+  font-size: 2.5rem;
+  margin-top: 4vh;
+}
+.Blog-Artical .inspire-data button{
+  font-family: "Montserrat";
+  height: auto;
+  font-size: 1.2rem;
+ padding: 7px 20px;
+  margin-top: 2vh;
+  }
+
+
+
+  @media screen and (min-width:992px) and (max-width:1241px) {
+    .Blog-Artical .blog-title h1 {
+      font-size: 4rem;
+  }
+
+.Blog-Artical .liz-empty{
+  height: 170px;
+}
+.Blog-Artical .experience {
+  padding: 50px;
+}
+
+.Blog-Artical .evening-text {
+  padding: 60px;
+  font-size: 2.5rem;
+  line-height: 50px;
+}
+.Blog-Artical .evening-img {
+  padding: 0 0 0 50px;
+
+}
+
+.Blog-Artical .plus-Button3{
+  right: 4%;
+}
+
+.Blog-Artical .grid-col span {
+  top: 14%;
+}
+.Blog-Artical .card-container {
+  margin: 7vh 50px;
+}
+.Blog-Artical .inspire-data p{
+  font-size: 18x;
+}
+    
+  }
+
+
+  @media screen and (min-width:1242px) and (max-width:1450px){
+    .Blog-Artical .blog-title h1 {
+      font-size: 4rem;
+  }
+
+.Blog-Artical .liz-empty{
+  height: 170px;
+}
+.Blog-Artical .experience {
+  padding: 50px;
+}
+
+.Blog-Artical .evening-text {
+  padding: 80px 100px;
+  font-size: 2.7rem;
+  line-height: 60px;
+}
+.Blog-Artical .evening-img {
+  padding: 0 0 0 50px;
+
+}
+
+.Blog-Artical .plus-Button3{
+  right: 4%;
+}
+
+.Blog-Artical .grid-col span {
+  top: 14%;
+}
+.Blog-Artical .card-container {
+  margin: 7vh 50px;
+}
+  }
+
+  @media screen and (min-width:1451px) and (max-width:1600px){
+    .Blog-Artical .blog-title h1 {
+      font-size: 4rem;
+  }
+
+.Blog-Artical .liz-empty{
+  height: 170px;
+}
+.Blog-Artical .experience {
+  padding: 50px;
+}
+
+.Blog-Artical .evening-text {
+  padding: 80px 100px;
+  font-size: 2.7rem;
+  line-height: 60px;
+}
+.Blog-Artical .evening-img {
+  padding: 0 0 0 50px;
+
+}
+
+.Blog-Artical .plus-Button3{
+  right: 4%;
+}
+
+.Blog-Artical .grid-col span {
+  top: 14%;
+}
+.Blog-Artical .card-container {
+  margin: 7vh 50px;
+}
+
+.Blog-Artical .liz-column {
+  padding: 20px 80px;
+}
+  }

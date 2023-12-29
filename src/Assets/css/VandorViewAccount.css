@@ -1,0 +1,769 @@
+.nav-tabs {
+  font-family: "Montserrat";
+  border: 0;
+  margin: 50px 0;
+  justify-content: center;
+}
+.account-vandor-top {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.nav-tabs .nav-link.active {
+  color: #ca8bbb !important;
+}
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border-color: none !important;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border-color: none !important;
+}
+
+.listing-nav .nav-link {
+  border: 0 !important;
+  color: #525045;
+  font-weight: bold;
+  border-right: 2px solid #525045 !important;
+  padding: 0 10px !important;
+  line-height: 1 !important;
+  border-top-right-radius: 0 !important;
+}
+.listing-nav .nav-link :nth-child(4) {
+  border-right: 0 !important;
+}
+/* -- your-profile--section-- */
+
+.Your_profile {
+  padding: 0 10px;
+}
+.Your_profile p,h5{
+  margin-bottom: 10px;
+}
+.public-profile-btn button {
+  font-family: "Montserrat";
+  color: white;
+  text-decoration: underline;
+  padding: 8px 20px 8px 20px;
+  border-radius: 30px;
+  background-color: #ca8bbb;
+  border: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.your_info h2 {
+  color: #ca8bbb;
+}
+.your_info h5 {
+  color: #525045;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+.your_info p {
+  color: #525045;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+.your_info input {
+  width: 100%;
+  font-weight: 500;
+  border-radius: 23px;
+  color: #525045;
+  font-family: "Montserrat";
+
+  padding: 8px 20px 8px 20px;
+
+  border: 1px solid #525045;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+textarea {
+  resize: none;
+}
+.your_info input:focus {
+  outline: none;
+}
+
+.pdfProof {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.pdfProof-Err {
+  margin-bottom: 0;
+  color: red !important;
+  font-weight: 700 !important;
+}
+
+.section-tab {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.react-tel-input .form-control {
+  width: 100% !important;
+  border-radius: 30px !important;
+  border: 2px solid #525045 !important;
+  padding: 20px 20px 20px 48px !important;
+}
+
+.react-tel-input .flag-dropdown {
+  background-color: transparent !important;
+  border: 0 !important;
+}
+.react-tel-input {
+  font-family: "Montserrat" !important;
+}
+.react-tel-input .selected-flag {
+  background: none !important;
+  outline: none !important;
+  position: relative;
+
+  padding: 10px !important;
+  border-radius: 0 !important;
+}
+.react-tel-input .form-control input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.react-tel-input .selected-flag .arrow {
+  rotate: -90deg !important;
+  width: 8px !important;
+}
+
+.lang-select select {
+  width: 100%;
+  border: 1px solid #525045;
+  border-radius: 30px;
+  font-family: "Montserrat";
+  padding: 8px 40px 8px 25px;
+}
+.lang-select select:focus {
+  outline: none;
+}
+
+.your_info textarea {
+  width: 100%;
+  border-radius: 30px;
+  color: #525045;
+  font-family: "Montserrat";
+  padding: 10px 20px 10px 20px;
+}
+.your_info textarea:focus {
+  outline: none;
+}
+.location-select select {
+  width: 100%;
+  border: 1px solid #525045;
+  border-radius: 30px;
+  font-family: "Montserrat";
+  padding: 8px 40px 8px 25px;
+}
+
+.location-select select:focus {
+  outline: none;
+}
+
+.profile-location-btn button {
+  font-family: "Montserrat";
+  padding: 10px 85px 10px 85px;
+  border-radius: 30px;
+  border: 0;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #d9d9d9;
+}
+
+.profile-varification-btn button {
+  padding: 10px 40px 10px 40px;
+  font-family: "Montserrat";
+  border-radius: 30px;
+  border: 0;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #ca8bbb;
+}
+
+.Profile-Data h5 {
+  font-weight: bold;
+}
+.Profile-Data > button {
+  font-family: "Montserrat";
+  border-radius: 30px;
+  padding: 8px 30px 8px 30px;
+  color: white;
+  background-color: #ca8bbb;
+  border: 0;
+  font-weight: bold;
+}
+.profile_listing_btn button {
+  font-family: "Montserrat";
+  color: #ca8bbb;
+  font-weight: bold;
+  border: 0;
+  background: transparent;
+}
+
+/* your-listing-section-- */
+
+.Your-Listing {
+  padding: 0 10px;
+  position: relative;
+}
+.yourListing h2 {
+  color: #ca8bbb;
+}
+.listingImageCol {
+  padding-top: 30px;
+}
+.yourListing h6 {
+  color: #525045;
+  font-weight: bold;
+  font-family: "Montserrat";
+  padding-bottom: 10px;
+}
+
+.uploadImgageListing {
+  position: absolute;
+  top: 40%;
+  right: 40%;
+}
+
+.yourListing p {
+  color: #525045;
+  font-family: "Montserrat";
+  padding-bottom: 10px;
+}
+.yourListing input {
+  width: 100%;
+  font-family: "Montserrat";
+  color: #525045;
+  padding: 8px 20px 8px 20px;
+  border-radius: 30px;
+  border: 1px solid #525045;
+}
+.yourListing input:focus {
+  outline: none;
+}
+
+.listing-section-tab {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.yourListing select {
+  width: 100%;
+  font-family: "Montserrat";
+  color: #525045;
+  border-radius: 30px;
+  border: 2px solid #525045;
+  padding: 8px 20px
+}
+.yourListing select:focus {
+  outline: none;
+}
+.yourListing textarea {
+  width: 100%;
+  border-radius: 30px;
+  color: #525045;
+  font-family: "Montserrat";
+  padding: 10px 20px 10px 20px;
+}
+.yourListing textarea:focus {
+  outline: none;
+}
+
+.yourListing input[type="checkbox"] {
+  visibility: hidden;
+  display: none;
+}
+
+.checkbox-btn-col1 {
+  border-radius: 40px;
+  background-color: #d9d9d9;
+}
+.checkbox-btn-col2 {
+  border-radius: 40px;
+  background-color: #ca8bbb;
+}
+.checkbox-btn-col3 {
+  border-radius: 40px;
+  background-color: #d9d9d9;
+}
+.yourListing label {
+  border: 0;
+  font-family: "Montserrat";
+  padding: 20px;
+  margin: 0;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+}
+.checkbox-btn {
+  gap: 40px;
+}
+.priceVandor-box span {
+  font-family: "Montserrat";
+}
+.USDPrice-box {
+  border: 2px solid #525045;
+  font-family: "Montserrat";
+  font-size: 18px;
+  padding: 7px 0;
+  border-radius: 30px;
+}
+.USDPrice-box .USDPrice-span1 {
+  padding: 8px 40px;
+}
+.USDPrice-box .USDPrice-span2 {
+  padding: 8px 20px;
+  border-left: 2px solid #525045;
+}
+.USDPrice-box .USDPrice-span1 img {
+  width: 11px;
+  margin-bottom: 8px;
+  margin-left: 17px;
+}
+.Price-vandor-row {
+  gap: 40px;
+}
+
+.listing-upload-btn {
+  text-align: center;
+}
+.listing-upload-btn label {
+  font-family: "Montserrat";
+  background-color: #ca8bbb;
+  padding: 10px 30px;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+}
+.lengthF_img {
+  width: 100px;
+  height: 100px;
+}
+.multipleImg-upload {
+  width: 150px;
+  height: 120px;
+  padding: 10px 10px;
+}
+.err-upload-Img {
+  text-align: center;
+}
+.err-upload-Img p {
+  color: red;
+  font-weight: 600;
+}
+
+.css-1gv0vcd-MuiSlider-track {
+  border: 0 !important;
+  background-color: transparent !important;
+}
+
+.css-nnid7-MuiSlider-valueLabel {
+  background-color: transparent !important;
+  color: #525045 !important;
+}
+
+.css-eg0mwd-MuiSlider-thumb::after {
+  background-color: #f8b912 !important;
+  width: 32px !important;
+  height: 32px !important;
+}
+.css-yafthl-MuiSlider-markLabel {
+  font-weight: bold !important;
+}
+.listing-section-range {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border: 1px solid #525045;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.listing-gallery-box {
+  background: #f5f5f5;
+  font-family: "Montserrat";
+  color: #525045;
+  font-weight: bold;
+  padding: 130px 100px;
+}
+.gallery-update-btn {
+  padding: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.gallery-update-btn .gallery-update-btn-second {
+  padding: 8px 60px;
+}
+.gallery-update-btn .gallery-update-btn-first {
+  padding: 8px 80px;
+}
+.gallery-update-btn button {
+  color: white;
+  border: 0;
+  background-color: #00b0d7;
+  border-radius: 30px;
+  font-family: "Montserrat";
+  margin: 20px;
+  /* padding: 8px 40px; */
+}
+.listing-upload-btn button {
+  background-color: #ca8bbb;
+  color: white;
+  border-radius: 30px;
+  font-family: "Montserrat";
+  border: 0;
+  font-weight: 500;
+  padding: 8px 20px 8px 20px;
+}
+.listing-review-btn {
+  padding: 40px 0;
+  text-align: center;
+}
+.listing-review-btn button {
+  background-color: #ca8bbb;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  font-family: "Montserrat";
+  border: 0;
+  padding: 8px 20px 8px 20px;
+}
+
+.empty-venues button {
+  background-color: #ca8bbb;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  font-family: "Montserrat";
+  border: 0;
+  padding: 8px 80px 8px 80px;
+}
+
+.hide {
+  display: none;
+}
+img.image-model {
+  width: 100%;
+  height: 320px;
+  object-fit: fill;
+}
+
+.videoFile-Label {
+  border: 1px solid #525045;
+  padding: 8px 30px;
+  border-radius: 30px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  width: 100%;
+}
+
+.empty-card-account {
+  height: 350px;
+  border: 2px solid #525045;
+  border-radius: 50px;
+}
+.cardAccount {
+  padding: 0 20px;
+}
+.empty-box-account {
+  height: 230px;
+  background: #d9d9d9;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom: 2px solid #525045;
+  color: #525045;
+  font-family: "Montserrat";
+}
+.empty-body-account {
+  padding: 20px 30px;
+  line-height: 8px;
+}
+.empty-body-account .empty-account-title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #525045;
+  font-family: "Montserrat";
+}
+.empty-body-account p {
+  color: #525045;
+  font-family: "Montserrat";
+}
+
+/* account-management-section-- */
+
+.AccountManagement {
+  padding: 0 20px;
+}
+
+.AccountManagement-Section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.account-back-btn button {
+  font-family: "Montserrat";
+  border: 0;
+  background-color: transparent;
+  color: #ca8bbb;
+  font-weight: bold;
+}
+
+.AccountManagement-Section h6 {
+  font-weight: bold;
+  font-family: "Montserrat";
+  color: #525045;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.details-saved-btn button {
+  background-color: #ca8bbb;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  font-family: "Montserrat";
+  border: 0;
+  padding: 8px 30px 8px 30px;
+}
+
+/* input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+} */
+
+.password-circle {
+  padding: 50px !important;
+  display: flex;
+  justify-content: flex-end;
+}
+.password-circle-box {
+  background-color: #525045;
+  text-align: center;
+  aspect-ratio: 1 / 1;
+  width: 225px;
+  border: 0;
+  border-radius: 50%;
+}
+.password-circle h6 {
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-tab .inputfile {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.input-pathBox {
+  border: 1px solid #525045;
+  padding: 30px 0;
+  text-align: center;
+  position: relative;
+  padding: 90px 0;
+  border-radius: 50px;
+}
+.input-path-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Montserrat";
+}
+.input-path-label span {
+  background-color: #d9d9d9;
+  padding: 30px 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+.selectOption-box {
+  width: 100%;
+  border: 1px solid #525045;
+  padding: 8px 30px;
+  font-family: "Montserrat";
+  color: #525045;
+  border-radius: 30px;
+}
+.select-box-image {
+  position: relative;
+}
+.select-box-image img {
+  position: absolute;
+  right: 30px;
+  z-index: 1;
+  top: 15px;
+  width: 10px;
+}
+.selectOption-box select {
+  border: 0;
+  width: 100px;
+}
+.selectOption-box option:hover {
+  background-color: #d0b417;
+}
+.selectOption-box select:focus-visible {
+  border: 0;
+  outline: none;
+}
+.select-box-image select:focus {
+  outline: none;
+}
+
+.profileInfo-box {
+  padding: 40px 0;
+}
+.section-tab input {
+  margin-top: 10px;
+}
+.social-links-btn {
+  display: grid;
+  place-items: center;
+  margin: auto;
+
+  border-radius: 30px;
+
+  background-color: #ca8bbb;
+}
+
+.social-links-btn button {
+  border: 0;
+  padding: 8px 0;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.social-links-btn {
+}
+
+.social-links-div input {
+  margin: 10px 0;
+}
+
+.listing-wedding-theme {
+  padding: 50px 0;
+}
+.listing-wedding-theme h6 {
+  color: #525045;
+  font-weight: bold;
+  font-family: "Montserrat";
+  padding-bottom: 10px;
+}
+
+.theme-group-account {
+  padding: 40px 0;
+}
+
+.output-image-box img {
+  width: 250px;
+  height: 200px;
+  margin: 20px 20px 0 0;
+}
+.profile_disconnect_btn button {
+  border: 0;
+  border-radius: 30px;
+  padding: 6px 30px;
+  color: white;
+  font-family: "Montserrat";
+  background-color: #00b0d7;
+}
+
+.videoPlayButton {
+  position: absolute;
+  z-index: 1;
+  width: 40px;
+  top: 47%;
+  left: 15%;
+}
+
+/* .vandorAccount-Container{
+    max-width: 1728px;
+    margin:auto;
+  } */
+
+@media screen and (min-width: 992px) and (max-width: 1241px) {
+  .yourListing label {
+    font-size: 16px;
+  }
+  .yourListing label {
+    font-size: 16px;
+  }
+  .profile_listing_btn {
+    text-align: center;
+}
+  input[type="radio"] {
+    width: 30px !important;
+    height: 30px !important;
+    padding: 5px !important;
+  }
+.vandorAccount-Container{
+  padding: 0 80px;
+}
+  .Your_profile {
+    padding: 0 50px;
+  }
+  .Your-Listing {
+    padding: 0 50px;
+  }
+  .AccountManagement {
+    padding: 0 50px;
+  }
+  .checkbox-btn {
+    gap: 10px;
+  }
+  .gallery-update-btn button:nth-child(1) {
+    padding: 8px 50px;
+  }
+  .gallery-update-btn button {
+    padding: 8px 30px;
+  }
+  .multipleImg-upload {
+    width: 100px;
+  }
+  .uploadImgageListing {
+    position: absolute;
+    top: 18%;
+    right: 18%;
+  }
+  .listing-upload-btn label {
+    padding: 8px 20px !important;
+  }
+
+  .USDPrice-box .USDPrice-span1 {
+    padding: 8px 30px;
+  }
+}
+
+@media screen and (min-width: 1241px) {
+  .uploadImgageListing {
+    position: absolute;
+    top: 17%;
+    right: 13%;
+  }
+  .yourListing label {
+    font-size: 16px;
+  }
+  .profile_listing_btn {
+    text-align: center;
+}
+}
+
+@media screen and (min-width: 1242px) and (max-width: 1400px) {
+  .multipleImg-upload {
+    width: 130px;
+  }
+  .vandorAccount-Container{
+    padding: 0 100px;
+  }
+}

@@ -1,0 +1,844 @@
+.options {
+  background-color: #f5f5f5;
+  padding: 50px 150px 50px 150px;
+}
+.select-image-explore {
+  width: 10px;
+  margin-left: 10%;
+}
+/* select {
+    -webkit-appearance: none;
+} */
+.select-option {
+  border: 2px solid #525045;
+  border-radius: 30px;
+  padding: 5px;
+}
+.dropdown-select {
+  border-right: 2px solid #525045;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.dropdown-select select {
+  font-family: "Montserrat";
+  border: 0;
+  background-color: #f5f5f5;
+  color: #525045;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.dropdown-select select:focus {
+  outline: none;
+}
+
+.dropdown-select .dropdown_submit {
+  margin-left: 10px;
+}
+.dropdown_submit button {
+  border: 0;
+}
+
+.filter-btn button {
+  color: #1e3b76;
+  font-family: "Montserrat";
+  border: 4px solid #1e3b76;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 6px 30px 6px 30px;
+}
+
+.signup-explore {
+  background-color: #027656;
+  color: #ffffff;
+  max-width: 800px;
+  border-radius: 100px;
+}
+.signup-explore button {
+  border-radius: 30px;
+  padding: 6px 25px 6px 25px;
+  color: white;
+  background-color: transparent;
+  border: 4px solid white;
+  font-family: "Montserrat";
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s !important;
+}
+
+/* europeon-wedding-section-- */
+/* 
+
+
+
+/* idel-venue-section--- */
+
+.idel-venues {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.idel-venues-heading h2 {
+  color: #ca8bbb;
+  font-size: 30px;
+}
+
+.idel-venues .idel_venues_button {
+  text-align: center;
+  margin-top: 40px;
+}
+.idel_venues_button button {
+  margin: auto;
+  font-family: "Montserrat";
+  border-radius: 50px;
+  padding: 6px 40px 6px 40px;
+  font-weight: bold;
+  border: 4px solid #ca8bbb;
+  color: #ca8bbb;
+}
+
+/* --more-wedding-venues-section-- */
+
+.wedding-venues {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.wedding-venues .wedding-venues-heading h1 {
+  color: #ec6877;
+  font-size: 30px;
+}
+
+.empty-venues {
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  gap: 20px;
+}
+.empty-venues .empty-card {
+  border-radius: 30px;
+  border: 2px solid #525045;
+  width: 230px;
+  border-radius: 50px;
+  font-family: "Montserrat";
+  color: #525045;
+  background-color: #fefefe;
+  font-family: "Montserrat";
+}
+
+.empty-card .empty-body {
+  border-top: 2px solid #525045;
+  padding: 6px 25px 6px 25px;
+  line-height: 10px;
+  font-family: "Montserrat";
+  color: #525045;
+}
+.empty-body h3 {
+  font-size: 17px;
+  font-weight: bold;
+}
+.empty-body p {
+  font-weight: 400;
+}
+
+/* empty-slider */
+
+.coutries-slider {
+  padding: 50px 0;
+  max-width: 1728px;
+  margin: auto;
+}
+
+.coutries-slider h2 {
+  text-align: center;
+  color: #ec6877;
+}
+
+.common_card .empty-box {
+  width: 100%;
+  height: 240px;
+  background-color: #d9d9d9;
+  border-radius: 47px 47px 0 0;
+  border-bottom: 2px solid #525045;
+}
+
+/* modal-login-form-- */
+/* 
+.ReactModal__Overlay .ReactModal__Overlay--after-open{
+    z-index: 10;
+} */
+.ReactModal__Overlay {
+  z-index: 10;
+}
+/* .ReactModal__Overlay--after-open{
+    z-index: 10;
+} */
+.login-title {
+  color: #525045;
+  font-family: "Montserrat";
+  position: relative;
+  text-align: center;
+}
+.listing_Finish {
+  padding: 10px 0;
+}
+
+.login-roobi hr {
+  margin: 0;
+  opacity: 1;
+  color: #525045;
+}
+.error_login_modal {
+  color: red;
+  font-size: 16px;
+  margin-left: 120px;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+.error_sign_modal {
+  color: red;
+  font-size: 16px;
+  margin-left: 60px;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+.error_finish_modal {
+  color: red;
+  font-size: 16px;
+
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+.login-roobi {
+  width: 700px;
+  border-radius: 40px;
+  background-color: white;
+  border: 1px solid #525045;
+}
+.login-roobi .close_button {
+  color: #525045;
+  background-color: transparent;
+  position: absolute;
+  top: 24%;
+  right: 3%;
+}
+.login-title p {
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.login-heading h4 {
+  color: #1e3b76;
+}
+
+.input-roobi input {
+  width: 80%;
+  font-family: "Montserrat";
+  font-weight: bold;
+  border-radius: 30px;
+  color: #525045;
+  border: 1px solid #525045;
+  padding: 8px 30px;
+  margin: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.input-roobi input:focus {
+  outline: none;
+}
+
+.login-submit button {
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Montserrat";
+  background-color: #1e3b76;
+  border-radius: 30px;
+  border: 0;
+  padding: 8px 100px;
+}
+
+.login-content {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #525045;
+  font-weight: 500;
+}
+
+.signup_button button {
+  color: #525045;
+  font-family: "Montserrat";
+
+  border-radius: 30px;
+  font-weight: 600;
+  padding: 8px 90px;
+  border: 2px solid #525045;
+}
+.signup_button p {
+  color: #525045;
+  font-family: "Montserrat";
+}
+
+.ReactModal__Content {
+  background-color: transparent !important;
+  height: calc(100vh - 70px);
+
+  border: none !important;
+}
+.signup-heading h4 {
+  color: #1e3b76;
+}
+.signup-heading p {
+  font-family: "Montserrat";
+  color: #525045;
+}
+
+.roobi-box {
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 30px;
+}
+.roobi-box button {
+  border-radius: 50px;
+  padding: 50px 60px 50px 60px;
+  width: 280px;
+  color: white;
+  font-weight: 600;
+  font-family: "Montserrat";
+  border: 0;
+  font-variant: small-caps;
+  font-size: 20px;
+}
+.roobi-box .roobi_button_1 {
+  background-color: #027656;
+}
+.roobi-box .roobi_button_2 {
+  background: #ca8bbb;
+}
+
+.signup-mail-heading h4 {
+  color: #027656;
+}
+.signup-mail-heading p {
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: #525045;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.signup-mail {
+  justify-content: center;
+}
+.signup-mail input {
+  width: 80%;
+  font-family: "Montserrat";
+  font-weight: 600;
+  border-radius: 30px;
+  color: #525045;
+  border: 1px solid #525045;
+  padding: 10px 30px;
+  margin: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.signup-mail input:focus {
+  outline: none;
+}
+.signup-group {
+  font-family: "Montserrat";
+}
+.login-title h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.signup-group button {
+  padding: 10px;
+  border-radius: 30px;
+  color: #525045;
+  border: 3px solid #525045;
+  font-variant: small-caps;
+  font-weight: 600;
+  row-gap: 20px;
+  font-size: 18px;
+  width: 343px;
+  line-height: 24px;
+}
+.signup-password {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+}
+
+.signup-password input {
+  width: 600px;
+  border-radius: 40px;
+  font-family: "Montserrat";
+  color: #525045;
+  border: 1px solid #525045;
+  padding: 8px 50px 8px 50px;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.signup-password input:focus {
+  outline: none;
+}
+.signup-password .show-password {
+  position: absolute;
+  right: 17%;
+}
+
+.signup-password button {
+  border: 0;
+  color: #027656;
+  background-color: transparent;
+  font-family: "Montserrat";
+  margin: 7px 0;
+  font-weight: bold;
+}
+.signup-password button:focus {
+  outline: none;
+}
+
+.p_include {
+  font-family: "Montserrat";
+  color: #525045;
+  /* padding-top: 20px;
+    padding-bottom: 20px; */
+  font-weight: bold;
+}
+.p_button button {
+  border: 0;
+  color: white;
+  background-color: #027656;
+  font-family: "Montserrat";
+  padding: 10px 80px 10px 80px;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+.signup-section {
+  font-family: "Montserrat";
+}
+
+.detail-section p {
+  font-weight: bold;
+  color: #525045;
+}
+
+.detail-section input {
+  width: 100%;
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  margin: 10px 0;
+  background: #ffffff;
+  border: 1px solid #525045;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+}
+.detail-section input:focus {
+  outline: none;
+}
+
+/* --vandor-signup--section-- */
+
+.detail-section p {
+  font-weight: bold;
+  color: #525045;
+}
+
+.finish-section input {
+  width: 100%;
+  border-radius: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 30px;
+  background: #ffffff;
+  border: 1px solid #525045;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+}
+
+.finish-section input:focus {
+  outline: none;
+}
+.finish-section p {
+  font-weight: bold;
+  color: #525045;
+}
+
+.birth_signup h6 {
+  color: #ca8bbb;
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.finish-section .para {
+  color: #ca8bbb;
+  font-weight: 500;
+}
+
+.birth_signup input {
+  border-radius: 40px;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #525045;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 8px 30px 8px 30px;
+  font-weight: 500;
+  margin: 7px 0;
+  color: #525045;
+}
+.birth_signup input:focus {
+  outline: none;
+}
+
+.upload_profile .UploadProfile_title {
+  margin-bottom: 0;
+  padding: 5px 0;
+}
+
+.vendor_cat_select {
+  padding: 6px 20px;
+  border-radius: 30px;
+  color: #525045;
+  font-weight: 500;
+  border: 1px solid 525045;
+}
+/* .upload_profile input {
+  height: 42px;
+} */
+.agree_button {
+  text-align: center;
+  /* padding-top: 20px;
+    padding-bottom: 20px; */
+}
+.agree_button button {
+  background-color: #027656;
+  color: white;
+  font-weight: 500;
+  padding: 10px 60px 10px 60px;
+  border-radius: 30px;
+  border: 0;
+}
+
+.check-condioton input[type="checkbox"] {
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+}
+.check-condioton label {
+  padding-left: 10px;
+}
+
+.create-profile {
+  justify-content: center;
+}
+.create-profile img {
+  height: 100px;
+  width: 300px;
+}
+.create-profile h4 {
+  color: #027656;
+  text-align: center;
+  padding-top: 20px;
+}
+.create-profile p {
+  font-family: "Montserrat";
+  font-weight: bold;
+  padding-top: 10px;
+
+  text-align: center;
+  color: #525045;
+}
+.addListingButton2 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.addListingButton2 button {
+  color: white;
+  background-color: #027656;
+  font-weight: 600;
+  border: 0;
+  padding: 8px 35px;
+  border-radius: 40px;
+  font-family: "Montserrat";
+}
+.addListingButton {
+  padding-bottom: 10px;
+  text-align: center !important;
+}
+.addListingButton button {
+  padding: 10px 100px !important;
+  font-weight: 600;
+  border: 0;
+  color: white;
+  border-radius: 40px;
+  font-family: "Montserrat";
+}
+
+.getInspired-wedding {
+  padding: 60px 0;
+}
+.getInspired-wedding h2 {
+  text-align: center;
+  color: #027656;
+  font-size: 35px;
+  padding: 0;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1241px) {
+  .common_card .empty-box {
+    height: 210px;
+  }
+  .getInspired-wedding h2 {
+    font-size: 25px;
+  }
+  .login-roobi {
+    width: 600px;
+  }
+  .login-roobi {
+    width: 650px !important;
+  }
+  .signup_button {
+    padding: 0 !important;
+  }
+  .signup_button button {
+    padding: 6px 90px;
+  }
+  .login-submit {
+    padding: 10px !important;
+  }
+  .login-content p {
+    padding-bottom: 10px !important;
+  }
+  .login-content p {
+    margin-bottom: 0;
+  }
+  .signup-heading {
+    padding: 10px 0 !important;
+  }
+  .roobi-box {
+    padding: 20px 10px !important;
+  }
+  .roobi-box button {
+    padding: 40px 30px;
+  }
+  .signup-mail-heading {
+    padding: 20px 0 !important;
+  }
+  .signup-mail-heading p {
+    padding: 0 !important;
+    font-size: 17px;
+    margin-bottom: 0 !important;
+  }
+  .signup-mail input {
+    padding: 6px 30px;
+    margin: 0;
+  }
+  .signup-group button {
+    padding: 6px 30px;
+  }
+  .signup-group p {
+    margin-bottom: 0;
+    padding: 10px 0 !important;
+  }
+  .signup-password {
+    padding-top: 30px !important;
+  }
+  .signup-password input {
+    padding: 6px 30px;
+    font-size: 17px;
+  }
+  .p_include p {
+    margin-bottom: 0 !important;
+  }
+  .finish-section input {
+    padding: 6px 30px;
+    margin: 5px 0;
+  }
+  .finish-section p {
+    margin-bottom: 0;
+  }
+  .agree_button button {
+    padding: 6px 60px;
+  }
+}
+
+@media screen and (min-width: 1242px) and (max-width: 1367px) {
+  .login-title p {
+    font-size: 18px;
+    line-height: 0;
+    padding: 15px 0;
+  }
+  .getInspired-wedding h2 {
+    font-size: 28px;
+  }
+  .login-title {
+    padding: 15px 0 !important;
+    /* line-height: 1.5 !important; */
+  }
+  .login-heading {
+    padding: 10px 0 !important;
+  }
+  .input-roobi input {
+    padding: 6px 30px;
+    margin: 5px;
+  }
+  .common_card .empty-box {
+    height: 220px;
+  }
+  .login-roobi {
+    width: 650px !important;
+  }
+  .signup_button {
+    padding: 0 !important;
+  }
+  .signup_button button {
+    padding: 6px 90px;
+  }
+  .login-submit {
+    padding: 10px !important;
+  }
+  .login-content p {
+    padding-bottom: 10px !important;
+  }
+  .login-content p {
+    margin-bottom: 0;
+  }
+  .signup-heading {
+    padding: 10px 0 !important;
+  }
+  .roobi-box {
+    padding: 20px 10px !important;
+  }
+  .roobi-box button {
+    padding: 50px 30px;
+  }
+  .signup-mail-heading {
+    padding: 20px 0 !important;
+  }
+  .signup-mail-heading p {
+    padding: 0 !important;
+    font-size: 17px;
+    margin-bottom: 0 !important;
+  }
+  .signup-mail input {
+    padding: 6px 30px;
+    margin: 0;
+  }
+  .signup-group button {
+    padding: 6px 30px;
+    height: 42px;
+    border: 2px solid #525045;
+  }
+  .signup-group p {
+    margin-bottom: 0;
+    padding: 10px 0 !important;
+  }
+  .signup-password {
+    padding-top: 30px !important;
+  }
+  .signup-password input {
+    padding: 6px 30px;
+    font-size: 17px;
+  }
+  .p_include p {
+    margin-bottom: 0 !important;
+  }
+  .finish-section input {
+    padding: 6px 30px;
+    margin: 5px 0;
+  }
+  .finish-section p {
+    margin-bottom: 0;
+  }
+  .agree_button button {
+    padding: 6px 60px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .login-roobi {
+    width: 400px;
+  }
+  .roobi-box button {
+    border-radius: 30px;
+    padding: 9px 25px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (min-width: 1368px) and (max-width: 1500px) {
+  .login-roobi {
+    width: 700px !important;
+  }
+  .signup_button {
+    padding: 0 !important;
+  }
+  .signup_button button {
+    padding: 7px 90px;
+  }
+  .login-submit {
+    padding: 10px !important;
+  }
+  .login-content p {
+    padding-bottom: 10px !important;
+  }
+  .login-content p {
+    margin-bottom: 0;
+  }
+  .signup-heading {
+    padding: 10px 0 !important;
+  }
+  .roobi-box {
+    padding: 20px 10px !important;
+  }
+  .roobi-box button {
+    padding: 65px 30px;
+  }
+  .signup-mail-heading {
+    padding: 20px 0 !important;
+  }
+  .signup-mail-heading p {
+    padding: 0 !important;
+    font-size: 18px;
+    margin-bottom: 0 !important;
+  }
+  .signup-mail input {
+    padding: 6px 30px;
+    margin: 0;
+  }
+  .signup-group button {
+    padding: 7px 30px;
+  }
+  .signup-group p {
+    margin-bottom: 0;
+    padding: 10px 0 !important;
+  }
+  .signup-password {
+    padding-top: 30px !important;
+  }
+  .signup-password input {
+    padding: 7px 30px;
+    font-size: 18px;
+  }
+  .p_include p {
+    margin-bottom: 0 !important;
+  }
+  .finish-section input {
+    padding: 7px 30px;
+    margin: 5px 0;
+  }
+  .finish-section p {
+    margin-bottom: 0;
+  }
+  .agree_button button {
+    padding: 7px 60px;
+  }
+}

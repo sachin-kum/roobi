@@ -1,0 +1,281 @@
+.consumerAccount{
+    padding: 50px 70px ;
+    max-width: 1728px;
+    margin: auto;
+}
+
+.consumer-Imagae{
+    background: #F5F5F5;
+    height: 100%;
+}
+
+.consumer-Profile {
+    display: flex;
+    justify-content: space-between;
+}
+ .consumer-Profile h3{
+    color: #027656;
+  }
+  .consumer-Profile button{
+font-weight: 600;
+color: #FFFFFF;
+font-family: 'Montserrat';
+border: 0;
+background-color:#027656 ;
+padding: 6px 20px 6px 20px;
+border-radius: 30px;
+  }
+
+
+  .profile-wedding-consumer{
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+
+.profile-wedding-consumer
+h5{
+    color: #525045;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.profile-wedding-consumer textarea{
+    width: 100%;
+    color: #525045;
+    font-family: 'Montserrat';
+    border: 0;
+    resize:none;
+}
+.profile-wedding-consumer textarea:focus{
+    outline: none;
+}
+
+
+.consumer-wedding-goals h3{
+    color: #027656;
+    font-weight: 600;
+}
+.consumer-wedding-goals  button{
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    border: 0;
+    background-color:#027656 ;
+    padding: 8px 20px;
+    border-radius: 30px; 
+}
+.consumer-wedding-goals  p{
+    font-family: 'Montserrat';
+    line-height: 10px;
+  
+}
+.consumerPage label{
+    font-family: 'Montserrat';
+    color: #525045;
+    text-decoration: underline;
+padding-top: 20px;
+padding-bottom: 20px;
+    cursor: pointer;
+}
+.consumer-listing {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.consumer-listing .consumer-listing-heading{
+    color: #EC6877;
+}
+.consumer-listing .consumer-listing-btn{
+    border: 0;
+    color: #525045;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.consumer-listing-cards h6{
+    font-family: 'Montserrat';
+    color: #00B0D7;
+    text-decoration: underline;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.listingConsumer .nav-tabs .nav-link.active{
+    color: #027656 !important;
+}
+
+.details-saved-btn input{
+    width: 50%;
+}
+
+.details-saved-btntextarea {
+    width: 50%;
+    color: #525045;
+    font-family: 'Montserrat';
+    border: 0;
+    resize: none;
+}
+
+.profile_listing_btn{
+    text-align: start;
+}
+
+
+/* --weddign-goals--section-- */
+.WeddingGoals{
+    padding:  50px 240px ;
+    max-width: 1728px;
+    margin: auto;
+}
+.wedding-goals-place{
+    padding: 30px 0;
+}
+.wedding-info h2{
+    color: #66C0BE;
+}
+.WeddingGoals h5{
+color: #525045;
+font-family: 'Montserrat';
+font-weight: bold;
+}
+.weddingGoals-btn{
+    text-align: right;
+}
+.weddingGoals-btn button{
+    font-family: 'Montserrat';
+    border: 0;
+    font-weight: 600;
+    background-color: transparent;
+    color: #66C0BE;  
+}
+
+.wedding-info p{
+    font-family: 'Montserrat';
+    color: #525045;
+    font-weight: 500;
+}
+.wedding-info span{
+    color: #CA8BBB;
+    font-weight: bold;
+}
+.weddingGoals-calendar .react-calendar{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.wedding-row .weddingGoals-save-btn{
+    font-family: 'Montserrat';
+    background-color: #66C0BE;
+    border: 0;
+    color: white;
+    border-radius: 30px;
+    padding: 6px 30px;
+}
+.group-place  .wedding-place-radio{
+    padding-top: 10px;
+}
+
+.group-place  .wedding-place-radio input[type='radio']{
+    width: 20px;
+    height: 20px;
+}
+.group-place  .wedding-place-radio p{
+    padding-left: 5px;
+    font-family: 'Montserrat';
+   
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.weddingGoals-guest-box{
+    border:  2px solid #525045;
+    border-radius: 40px;
+    width: 60%;
+    padding: 20px 20px;
+    font-family: 'Montserrat';
+    color: #525045;
+}
+.weddingGoals-guest-box input{
+    width: 100%;
+    border-radius: 30px;
+    padding: 3px 10px;
+    border:1px solid #525045;
+}
+.weddingGoals-guest-box input:focus{
+    outline: none;
+}
+.weddingGoals-calendar  input{
+    font-family: 'Montserrat'; 
+    font-weight: 400;
+    border-radius: 30px;
+    border:1px solid #525045;
+    padding: 6px 10px;
+}
+.weddingGoals-calendar  input:focus{
+    outline: none;
+}
+
+.naplesWedding .naplesWedding-heading{
+    text-align: center;
+    color: #EC6877;
+}
+
+.Venues-Category h4{
+    color: #00B0D7;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-top: 20px;
+}
+
+ .venues-heading{
+    text-align: center;
+    color: #EC6877;
+}
+
+
+
+@media screen and (min-width:992px) and (max-width:1241px){
+    .consumer-wedding-goals h3{
+        font-size: 23px;
+    } 
+    .consumer-wedding-goals button {
+        padding: 8px 10px;
+    }
+    
+}
+@media screen and (min-width:992px) and (max-width:1241px){
+    .WeddingGoals{
+
+        padding: 50px 70px ;
+    }
+}
+/* @media screen and (min-width:1142px) and (max-width:1241px){
+    .WeddingGoals{
+
+        padding: 50px 100px ;
+    }
+} */
+@media screen and (min-width:1242px) and (max-width:1390px){
+    .consumerSavedCard{
+        padding: 0 20px;
+    }
+
+    .WeddingGoals{
+
+        padding: 50px 100px ;
+    }
+}
+
+@media screen and (min-width:1391px) and (max-width:1609px){
+    .WeddingGoals{
+
+        padding: 50px 150px ;
+    }
+}

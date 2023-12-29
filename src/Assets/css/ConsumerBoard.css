@@ -1,0 +1,92 @@
+.NaplesHeading h2{
+    text-align: center;
+    color: #EC6877;
+    font-size: 35px;
+
+}
+.NaplesContainer-idea{
+padding: 50px 0;
+}
+.NaplesHeading {
+   position: relative;
+   padding: 40px 0;
+}
+.NaplesHeading button{
+    position: absolute;
+    right: 50px;
+    top: 45px;
+    border: 0;
+    color:  #027656;
+    font-weight: bold;
+}
+.NaplesContainer{
+    max-width: 1728px;
+    margin: auto;
+}
+.NaplesContainer hr{
+    width: 90%;
+    margin-left:  auto;
+    margin-right:  auto;
+}
+.savedNaples{
+    padding: 50px 0;
+}
+.savedNaples h2{
+    text-align: center;
+    font-size: 35px;
+    color: #027656;
+     margin-bottom: 30px;
+}
+
+.uniqeVandor-Naples{
+    padding: 50px 0;
+}
+.uniqeVandor-Naples h2{
+    color: #EC6877;
+    font-size: 35px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+/* --saved-profile-- */
+
+.savedProfile-Container{
+    max-width: 1728px;
+    margin: auto;
+}
+
+.savedProfileHeading h2{
+    text-align: center;
+    color: #027656;
+    font-size: 35px;
+
+}
+.savedProfile-idea{
+padding: 50px 0;
+}
+.savedProfileHeading {
+   position: relative;
+   padding: 40px 0;
+}
+.savedProfileHeading .savedProfile{
+    position: absolute;
+    right: 50px;
+    top: 45px;
+    border: 0;
+    color:  #027656;
+    font-weight: bold;
+}
+
+.savedRecomended h2{
+    color: #EC6877;
+    text-align: center;
+    font-size: 35px;
+}
+.savedProfile-Container hr{
+    width: 90%;
+    margin-left:  auto;
+    margin-right:  auto;
+}
+.savedRecomended{
+    padding: 80px 0;
+}

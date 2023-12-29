@@ -1,0 +1,642 @@
+.rating-para{
+    display: flex;
+}
+
+
+.listing-image{
+    position: relative;
+}
+.VandorPlus-Button{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background-color: #027656;
+    color: white;
+    padding: 3px 7px;
+    border: 0;
+    border-radius: 50%;
+}
+.VandorPhoto-Button{
+    position: absolute;
+    bottom: 30px;
+    right: 60px;
+    border: 3px solid #1E3B76;
+    border-radius: 30px;
+    background:  #f5f5f5; ;
+    color: #1E3B76;
+    padding: 6px 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.editVandor-Profile-Btn{
+    background-color:    #CA8BBB;
+    border: 0;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+    padding: 6px 30px;
+    }
+    .addService-Vandor-Btn{
+        background-color:    #CA8BBB;
+        border: 0;
+        border-radius: 30px;
+        color: white;
+        font-weight: 600;
+        padding: 6px 50px;  
+    }
+    .flanco-card-group{
+        padding:  20px 0;
+    }
+    .flanco-card-group .flanco-service-edit{
+        text-align: center;
+    }
+    .flanco-card-group .flanco-service-edit button{
+
+        background-color:    #CA8BBB;
+        border: 0;
+        border-radius: 30px;
+        color: white;
+        font-weight: 600;
+        padding: 6px 60px;  
+        margin: 10px 0;
+
+    }
+.rating-link{
+    display: flex;
+    justify-content: flex-end;
+    word-spacing: 15px;
+    color:#027656;
+    font-family:'Montserrat';
+    padding: 0 0 15px 0;
+    font-weight: bold;
+    margin-right: 17%;
+}
+.rating-link span{
+    background-color: #027656;
+    color: white;
+    border-radius: 50%;
+    padding: 3px 6px;
+    margin-left: 10px;
+}
+
+.rating p{
+    font-family:'Montserrat';
+    font-weight: bold;
+   padding: 10px  20px 10px 20px;
+}
+.rating-para{
+    word-spacing: 10px;
+}
+.rating-para p{
+    color: #525045;
+    font-weight: bold;
+}
+
+
+.flanco-heading-content .flancoweb{
+color: #027656;
+text-decoration-line: underline;
+font-weight: 500;
+font-size: 20px;
+margin-left: 10px;
+
+}
+
+.vandor-listing{
+    padding: 50px;
+}
+.flanco-heading-content .pricing-span{
+    padding: 10px;
+    font-variant:normal;
+    font-size: 16px;
+    word-spacing: 6px;
+}
+
+
+
+.vandor-listing .perfect-theme {
+    padding: 30px 0;
+}
+.vandor-listing .perfect-theme h3{
+ color:    #1E3B76;
+ font-size: 20px;
+ font-family: 'Montserrat';
+ font-weight: 500;
+}
+
+.pizza-services-heading{
+    color:  #00B0D7;
+    font-size: 35px;
+}
+
+
+
+.flanco-card{
+    width: 300px;
+    height: 400px;
+    background-color: #FFFF;
+    border-radius: 50px;
+    border: 2px solid gray;
+    position: relative;
+}
+.flanco-card img{
+    width: 100%;
+    border-radius: 47px 47px 0 0;
+    
+}
+.flanco-card button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 0;
+    border-radius: 20px;
+        padding: 1px 7px;
+    color: #FFFF;
+}
+
+/* .flanco-card-group{
+     gap:40px; 
+
+} */
+
+.flanco-card-body{
+    padding: 20px;
+}
+.flanco-card .flanco-card-body h4{
+    font-family: 'Montserrat';
+    color: #525045; 
+    line-height:18px; 
+    font-size: 18px;
+    font-weight: bold;
+}
+.flanco-card .flanco-card-body p{
+    font-family: 'Montserrat';
+    color: #525045; 
+    line-height:10px;
+    font-weight: 500;  
+}
+
+
+
+.fututred-In{
+    padding: 30px 0 0 0;
+
+}
+.fututred-In h2{
+    color: #CA8BBB;
+    padding: 20px 0;
+}
+.fututred-In .futured-card{
+   border: 2px solid #525045;
+   border-radius: 50px;
+   height: 370px;
+   width: 280px;
+   position: relative;
+}
+
+.fututred-In .futured-empty-box{
+    background: #D9D9D9;
+    height: 200px;
+    border-bottom: 2px solid #525045;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+
+.fututred-In .futured-box-content{
+    padding: 20px;
+    font-family: 'Montserrat';
+    color: #525045;
+}
+.fututred-In .futured-box-content p{
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.futured-card button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 0;
+    border-radius: 20px;
+        padding: 1px 7px;
+    color: #FFFF;
+}
+
+.futuredIn-section{
+    display: flex;
+    padding: 0;
+}
+.futuredIn-section .futured-rotate{
+    transform: rotate(180deg);
+    display: grid;
+    writing-mode: vertical-lr;
+    place-items: center;
+    font-family: 'Montserrat';
+    font-size:30px;
+  
+    font-weight: 500;
+}
+.futuredIn-section .futured-collection{
+    display: flex;
+    gap: 40px;
+    margin-left: 30px;
+    overflow-x: scroll;
+}
+
+.listing-review{
+    padding: 50px 0;
+}
+
+
+
+
+
+.react-calendar{
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.react-calendar__viewContainer{
+    margin: 30px;
+}
+.react-calendar__navigation{
+    margin: 40px;
+}
+ .react-calendar__navigation__prev2-button ,.react-calendar__navigation__next2-button{
+    display: none;
+}
+
+.react-calendar{
+    width: 370px !important;
+    font-family:'Montserrat' !important;
+    font-weight: bold !important;
+    width: 420px !important;
+    height: 400px !important;
+}
+.react-calendar__navigation__label__labelText--from{
+    font-weight: bold !important;
+    color: #525045 !important;
+}
+.react-calendar__navigation{
+    padding-top: 30px !important;
+}
+.react-calendar__navigation__prev-button,.react-calendar__navigation__next-button{
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+.react-calendar__month-view__weekdays__weekday abbr{
+    text-decoration: none;
+}
+.react-calendar__month-view {
+    padding: 20px 10px;
+}
+
+.react-calendar__tile--active  {
+    background: #F8B912 !important;
+    color: black !important;
+    border-radius: 20px;
+
+}
+.react-calendar__tile--now{
+    background: none !important;
+  
+}
+
+.react-calendar__tile:hover{
+   
+    color: black !important;
+    border-radius: 20px !important;
+
+}
+.react-calendar__month-view__days__day{
+    color: black;
+}
+.react-calendar__navigation button:hover{
+    background-color: transparent !important;
+}
+
+
+.listing-card-content p{
+    font-family: 'Montserrat';
+    line-height: 15px;
+}
+.listing-data-card{
+ padding: 40px 0;
+}
+
+.listing-card{
+    max-width: 420px;
+    border-radius: 40px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #027656;
+    color: white;
+}
+
+.listing-card .listing-data-card-heading{
+    padding: 20px 0;
+}
+.tetimonial-image img{
+    height: 60px;
+    width: 60px;
+}
+.tetimonial-image h3{
+    padding: 13px 20px 13px 20px;
+    color: #00B0D7;
+}
+.testimonial-content p{
+    color: #525045;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.testimonial-btn button{
+    border:3px solid #00B0D7;
+    border-radius: 30px;
+    color: #00B0D7;;
+    font-family: 'Montserrat';
+    padding: 6px 20px 6px 20px;
+    font-weight: bold;
+}
+
+
+.rating-reviews h2{
+    color: #F8B912;
+    font-weight: 500;
+}
+
+.star{
+    fill: #F8B912!important;
+}
+.star-container svg{
+    height: 20px !important;
+    width: 20px !important;
+
+}
+.star-container {
+    padding-right:0px !important
+}
+.rating-star .star{
+    fill: #525045 !important;
+}
+
+
+.rating-reviews p{
+    color: #525045;
+    word-spacing: 10px;
+    font-family:'Montserrat';
+    font-weight: bold;
+   margin-bottom: 0% !important;
+}
+.review_content p{
+    font-family:'Montserrat';
+    font-weight: 500; 
+    word-spacing:normal;
+    color: #525045  ;
+}
+
+.listing-read-more button{
+    color: #F8B912;
+    border: 3px solid #F8B912;
+    border-radius: 30px;
+    padding: 8px 30px 8px 30px;
+    font-family:'Montserrat';
+    font-weight: bold;
+}
+
+.review-para-2{
+    padding-top:130px ;
+}
+.listing-rating-para {
+    color: #525045;
+    word-spacing: 10px;
+    font-family:'Montserrat';
+    font-weight: bold;
+    margin-bottom: 0%;
+
+}
+
+.reach-translator{
+    padding: 20px 0;
+}
+
+.listing-card-form input{
+    font-family: 'Montserrat';
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    width: 100%;
+    font-weight: 600;
+    border:2px solid #525045;
+    color: #525045;
+}
+.listing-card-form input:focus{
+    outline: none;
+}
+
+.listing-card-form  .textarea-msg {
+    width: 100%;
+
+    padding: 20px;
+    border: none;
+    background: none;
+    outline: none;
+    resize: none;
+    height: 200px;
+  
+    color: #525045;
+    overflow: auto;
+    font-family: 'Montserrat';
+}
+.listCard-button{
+    display: grid;
+    place-items: center;
+    margin:30px 0
+}
+.listing-card-form button{
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    padding: 10px 20px;
+ color: #027656;
+ font-weight: 600;
+   
+}
+.textarea-fieldBox{
+
+    background: #FFFFFF !important;
+    border-radius: 30px;
+}
+.msg::-webkit-scrollbar {
+    width: 18px;
+}
+
+.msg::-webkit-scrollbar-thumb {
+    background: #ddd;
+    border-radius: 10px;
+    border: 6px solid #fff;
+}
+
+.rem-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+   padding: 0 0 10px 10px;
+    color: #525045;
+    font-variant: small-caps;
+}
+
+.connected-vandors{
+    display: grid;
+    place-items: center;
+
+}
+.connected-vandors-section{
+   width: 420px;
+  
+    border-top:1px solid rgba(0, 0, 0, 0.2);
+    padding: 40px 20px 20px 60px;
+ 
+}
+.connected-vandors-section  h3{
+    color: #525045;
+}
+.connected-vandors-section .workPara{
+    font-family: 'Montserrat';  
+    color: #525045;
+    font-weight: 600;
+    padding: 30px 0;
+}
+
+.vendor-venuesPara p{
+    font-family: 'Montserrat';
+    font-size: 20px;   
+}
+
+.vendor-venuesPara p:nth-child(1){
+    color: #1E3B76;
+    font-weight: bold;
+}
+
+.vendor-venuesPara p:nth-child(2){
+    color: #1E3B76;
+    font-weight: 600;
+}
+
+.vendor-venuesPara p:nth-child(3){
+    color: #CA8BBB;
+    font-weight: 600;
+}
+
+.vendor-venuesPara p:nth-child(4){
+    color:  #027656;
+    font-weight: 600;
+}
+
+.vendor-venuesPara p:nth-child(5){
+    color:   #00B0D7;
+    font-weight: 600;
+}
+
+
+.vendor-venuesPara p:nth-child(6){
+    color: #F8B912;
+    font-weight: 600;
+}
+
+.vendor-venuesPara p:nth-child(7){
+    color: #901346;
+    font-weight:600;
+}
+
+.vendor-venuesPara p:nth-child(8){
+    color: #525045;
+    font-weight: 600;
+}
+
+.vendor-venuesPara p:nth-child(9){
+    color: #66C0BE;
+    font-weight: 600;
+}
+
+.vendor-venuesPara p:nth-child(10){
+    color: #FF4304;
+    font-weight: 600;
+}
+
+.vendor-venuesPara p:nth-child(11){
+    color:    #EC6877;
+    font-weight: 600;
+}
+.vandorListing-Container{
+    max-width: 1728px;
+    margin: auto;
+}
+
+
+@media screen  and (min-width:992px) and (max-width:1241px){
+    .connected-vandors-section {
+        width: 320px;
+        padding: 40px 10px 20px 20px;
+    }
+    .react-calendar__navigation__prev-button,.react-calendar__navigation__next-button{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .react-calendar__navigation {
+        margin: 10px;
+    }
+    .react-calendar {
+        width: 340px !important;
+    }
+
+    .flanco-card{
+        width: 270px;
+    }
+
+    .listing-card {
+        width: 320px;
+ 
+    }
+   
+}
+@media screen  and (min-width:992px) and (max-width:1199px){
+    .rating-link{
+        margin-right: 5%;
+    }
+}
+@media screen  and (min-width:1199px) and (max-width:1499px){
+    .rating-link{
+        margin-right: 11%;
+    }
+}
+@media screen  and (min-width:1500px) and (max-width:1700px){
+    .flanco-card {
+        width: 250px;
+        height: 365px;
+    }
+}
+@media screen  and (min-width:1739px){
+    .rating-link{
+        margin-right: 20%;
+    }
+}
+/* @media screen  and (min-width:1342px) and (max-width:1409px){
+    .flanco-card {
+        width: 240px;
+        height: 365px;
+    }
+    
+} */
+@media screen  and (min-width:1409px) and (max-width:1499px){
+    .flanco-card {
+        width: 240px;
+        height: 365px;
+    }
+    
+}
